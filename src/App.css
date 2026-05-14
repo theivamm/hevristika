@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
 
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-:root{--green:#338d74;--green-dark:#1f6b56;--green-light:#4db892;--cream:#f5f0eb;--cream-light:#faf7f3;--cream-dark:#e8e0d8;--dark:#1a1a2e;--text:#2d2d3a;--text-light:#6b6b7a;--white:#ffffff;--font:'Inter',system-ui,-apple-system,sans-serif;--radius:16px;--shadow:0 20px 60px rgba(0,0,0,0.06);--shadow-lg:0 40px 80px rgba(0,0,0,0.1)}
+:root{--green:#338d74;--green-dark:#9ce9e3;--green-light:#4db892;--cream:#f5f0eb;--cream-light:#faf7f3;--cream-dark:#e8e0d8;--dark:#1a1a2e;--text:#2d2d3a;--text-light:#6b6b7a;--white:#ffffff;--font:'Inter',system-ui,-apple-system,sans-serif;--radius:16px;--shadow:0 20px 60px rgba(0,0,0,0.06);--shadow-lg:0 40px 80px rgba(0,0,0,0.1)}
 html{scroll-behavior:smooth;overflow-x:hidden}
 body{font-family:var(--font);color:var(--text);background:var(--cream);overflow-x:hidden;line-height:1.6}
 img{max-width:100%;height:auto;display:block}

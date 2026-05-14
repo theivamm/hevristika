@@ -40,7 +40,7 @@ export default function Destino() {
         </div>
       </div>
       <style>{`
-        #destino{background:var(--cream-light);position:relative;overflow:hidden}
+        #destino{background:#e9e1d4;position:relative;overflow:hidden}
         #destino::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--green) 0%,var(--green-dark) 100%);opacity:0.03;z-index:0}
         #destino .grid{display:grid;gap:40px;position:relative;z-index:1}
         @media(min-width:768px){#destino .grid{grid-template-columns:1fr 1fr;gap:60px;align-items:center}}

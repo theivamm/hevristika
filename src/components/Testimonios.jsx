@@ -37,7 +37,7 @@ export default function Testimonios() {
       </div>
       <div className="container">
         <p className="section-label" style={{ color: 'rgba(255,255,255,0.5)' }}>Testimonios</p>
-        <h2 className="section-title" style={{ color: 'var(--white)' }}>Lo que dicen los que ya pasaron por Hevristika.</h2>
+        <h2 className="section-title" style={{ color: 'var(--white)' }}><span style={{ fontFamily: 'var(--font)', fontWeight: 800, letterSpacing: '-0.03em' }}>LO QUE DICEN</span> <span style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 700, fontStyle: 'italic' }}>los que ya pasaron por Hevristika.</span></h2>
         <div className="grid" ref={gridRef}>
           {testimonios.map((t, i) => (
             <div key={i} className="card">
@@ -57,7 +57,7 @@ export default function Testimonios() {
         #testimonios .section-sub{color:rgba(255,255,255,0.7)}
         #testimonios .grid{display:grid;gap:20px;margin-top:48px}
         @media(min-width:768px){#testimonios .grid{grid-template-columns:repeat(3,1fr);gap:24px}}
-        #testimonios .card{background:rgba(255,255,255,0.08);backdrop-filter:blur(10px);padding:28px;border-radius:var(--radius);border:1px solid rgba(255,255,255,0.1)}
+        #testimonios .card{background:rgba(255,255,255,0.08);backdrop-filter:blur(10px);padding:20px 28px;border-radius:var(--radius);border:1px solid rgba(255,255,255,0.1)}
         #testimonios .card .quote{font-size:14px;line-height:1.7;margin-bottom:16px;opacity:0.9;font-style:italic}
         #testimonios .card .author{font-weight:600;font-size:14px}
         #testimonios .card .origin{font-size:12px;opacity:0.6;margin-top:4px}

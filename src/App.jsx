@@ -3,7 +3,6 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
-import Credibilidad from './components/Credibilidad'
 import Problema from './components/Problema'
 import QueEs from './components/QueEs'
 import Programa from './components/Programa'
@@ -11,9 +10,7 @@ import Destino from './components/Destino'
 import Diferenciales from './components/Diferenciales'
 import Testimonios from './components/Testimonios'
 import Inversion from './components/Inversion'
-import CtaForm from './components/CtaForm'
-import Faq from './components/Faq'
-import CtaCierre from './components/CtaCierre'
+import CtaFinal from './components/CtaFinal'
 import Footer from './components/Footer'
 import WhatsAppFloat from './components/WhatsAppFloat'
 import './App.css'
@@ -32,7 +29,6 @@ export default function App() {
     <>
       <Nav />
       <Hero />
-      <Credibilidad />
       <Problema />
       <QueEs />
       <Programa />
@@ -40,9 +36,7 @@ export default function App() {
       <Diferenciales />
       <Testimonios />
       <Inversion />
-      <CtaForm />
-      <Faq />
-      <CtaCierre />
+      <CtaFinal />
       <Footer />
       <WhatsAppFloat />
     </>
