@@ -1,8 +1,10 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useTranslation } from '../i18n/i18n.jsx'
 
 export default function Problema() {
+  const { t } = useTranslation()
   const ref = useRef(null)
 
   useEffect(() => {
@@ -19,32 +21,32 @@ export default function Problema() {
     <section id="problema">
       <div className="container">
         <div className="split" ref={ref}>
-          <h2 className="split-title"><span className="split-title-inter">NO ES SOLO UN CURSO,</span><br /><span className="split-title-serif">es tu transformación.</span></h2>
-          <p className="split-text">Mientras otros te enseñan técnica, en Hevristika cambiamos tu realidad. Un mes en Misiones para obtener nivel profesional, contactos reales y una experiencia que pocos en el mundo pueden contar.</p>
+          <h2 className="split-title"><span className="split-title-inter">{t('problema.titleInter')}</span><br /><span className="split-title-serif">{t('problema.titleSerif')}</span></h2>
+          <p className="split-text">{t('problema.text')}</p>
         </div>
         <div className="cards-row">
           <div className="card card-dark">
-            <span className="card-label">El Destino</span>
-            <h3 className="card-title">Misiones: Tu campus de 30 días</h3>
-            <p className="card-text">Olvidate de las aulas tradicionales. Formate en un entorno único diseñado para llevar tu técnica y tu mentalidad al siguiente nivel. Un mes de inmersión total que no vas a encontrar en ninguna otra ciudad.</p>
+            <span className="card-label">{t('problema.card1Label')}</span>
+            <h3 className="card-title">{t('problema.card1Title')}</h3>
+            <p className="card-text">{t('problema.card1Text')}</p>
           </div>
           <div className="card card-image">
-            <span className="card-label">El Impacto</span>
-            <h3 className="card-title">De Estudiante a Profesional Real</h3>
-            <p className="card-text">En Hevristika no solo aprendés a mezclar bebidas; construís una red de contactos y un perfil profesional de élite. Salí con la confianza y el nivel que las mejores barras del mundo exigen.</p>
+            <span className="card-label">{t('problema.card2Label')}</span>
+            <h3 className="card-title">{t('problema.card2Title')}</h3>
+            <p className="card-text">{t('problema.card2Text')}</p>
           </div>
         </div>
         <div className="pills-row">
-          <span className="glass-pill">5+ países</span>
-          <span className="glass-pill">Alumnos internacionales</span>
-          <span className="glass-pill">EBS Thailand</span>
-          <span className="glass-pill">Fundadores formados en</span>
-          <span className="glass-pill">Destino único</span>
-          <span className="glass-pill">Misiones, Argentina</span>
-          <span className="glass-pill">Grupos reducidos</span>
-          <span className="glass-pill">Máx. 12 alumnos</span>
-          <span className="glass-pill">Desde 2025</span>
-          <span className="glass-pill">Programa activo</span>
+          <span className="glass-pill">{t('problema.pills.1')}</span>
+          <span className="glass-pill">{t('problema.pills.2')}</span>
+          <span className="glass-pill">{t('problema.pills.3')}</span>
+          <span className="glass-pill">{t('problema.pills.4')}</span>
+          <span className="glass-pill">{t('problema.pills.5')}</span>
+          <span className="glass-pill">{t('problema.pills.6')}</span>
+          <span className="glass-pill">{t('problema.pills.7')}</span>
+          <span className="glass-pill">{t('problema.pills.8')}</span>
+          <span className="glass-pill">{t('problema.pills.9')}</span>
+          <span className="glass-pill">{t('problema.pills.10')}</span>
         </div>
       </div>
       <style>{`
@@ -60,7 +62,7 @@ export default function Problema() {
         .card-dark .card-label{color:rgba(255,255,255,0.5)}
         .card-dark .card-title{color:var(--white)}
         .card-dark .card-text{color:rgba(255,255,255,0.75)}
-        .card-image{background:linear-gradient(180deg,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%),url("../../imgs/Cocktails_juices_bar_products_202605111941.jpeg") center/cover no-repeat}
+        .card-image{background:linear-gradient(180deg,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%),url("../../imgs/puerto-o1.jpeg") center/cover no-repeat}
         .card-label{font-family:var(--font);font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:12px}
         .card-title{font-family:var(--font);font-size:clamp(1.5rem,2.5vw,2.2rem);font-weight:800;letter-spacing:-0.03em;color:var(--white);line-height:1.15;margin-bottom:16px}
         .card-text{font-size:clamp(0.9rem,1vw,1rem);line-height:1.6;color:rgba(255,255,255,0.75);max-width:440px}

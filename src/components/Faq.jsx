@@ -1,17 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-const faqs = [
-  { q: '¿Necesito visa para ingresar a Argentina?', a: 'Depende de tu país de origen. La mayoría de los países de Europa y Sudamérica tienen acuerdo de ingreso libre con Argentina para estadías de hasta 90 días. Si tenés dudas sobre tu caso específico, te lo confirmamos en la llamada.' },
-  { q: '¿Dónde me alojo durante el programa?', a: 'Para alumnos del exterior orientamos sobre opciones de alojamiento cerca de las instalaciones. La experiencia completa (USD 4.200) incluye alojamiento. En la llamada te detallamos las opciones disponibles según tu presupuesto y preferencia.' },
-  { q: '¿El programa es en español? ¿Puedo seguirlo si no hablo bien el idioma?', a: 'El programa se dicta en español. Si tu nivel de español es básico, hablalo con nosotros en la llamada — en función de tu perfil evaluamos juntos si es viable y cómo acompañarte durante el programa.' },
-  { q: '¿Qué nivel previo de bartending necesito?', a: 'No es necesario tener experiencia previa. El programa está diseñado para que tanto principiantes como personas con base previa puedan aprovechar al máximo las cuatro semanas. Si ya tenés experiencia, en la llamada evaluamos en qué aspectos el programa te suma más.' },
-  { q: '¿Se puede pagar en cuotas?', a: 'Sí. En la llamada te explicamos las opciones de pago disponibles para alumnos del exterior.' },
-  { q: '¿Qué pasa si tengo que cambiar la fecha después de inscribirme?', a: 'Hay flexibilidad para cambios de fecha con aviso previo. Las condiciones exactas te las explicamos en detalle durante la llamada.' },
-]
+import { useTranslation } from '../i18n/i18n.jsx'
 
 export default function Faq() {
+  const { t } = useTranslation()
   const listRef = useRef(null)
   const [openIdx, setOpenIdx] = useState(null)
 
@@ -29,15 +22,15 @@ export default function Faq() {
     <section id="faq">
       <div className="container">
         <div className="wrap">
-          <p className="section-label">FAQ</p>
-          <h2 className="section-title">Preguntas frecuentes.</h2>
+          <p className="section-label">{t('faq.label')}</p>
+          <h2 className="section-title">{t('faq.title')}</h2>
           <div className="faq-list" ref={listRef}>
-            {faqs.map((faq, i) => (
+            {[0,1,2,3,4,5].map(i => (
               <div key={i} className={`faq-item${openIdx === i ? ' open' : ''}`}>
                 <button className="faq-question" onClick={() => setOpenIdx(openIdx === i ? null : i)}>
-                  {faq.q} <span className="icon">+</span>
+                  {t(`faq.items.${i}.q`)} <span className="icon">+</span>
                 </button>
-                <div className="faq-answer"><p>{faq.a}</p></div>
+                <div className="faq-answer"><p>{t(`faq.items.${i}.a`)}</p></div>
               </div>
             ))}
           </div>

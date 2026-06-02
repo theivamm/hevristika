@@ -1,15 +1,11 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useTranslation } from '../i18n/i18n.jsx'
 import testimonialVideo from '../assets/videos/7608903-uhd_3840_2160_25fps.mp4'
 
-const testimonios = [
-  { quote: '"Vine sin saber qué esperar y me fui con un nivel que no imaginaba que podía alcanzar en cuatro semanas. Misiones te cambia la perspectiva — no solo del bartending, sino de muchas cosas."', author: '[Nombre]', origin: '[Ciudad, País]' },
-  { quote: '"El entorno te empuja a concentrarte como no podrías hacerlo en una ciudad. Cada día es práctica intensiva, y el grupo se convierte en tu red de apoyo."', author: '[Nombre]', origin: '[Ciudad, País]' },
-  { quote: '"Vine desde Europa por la recomendación de un amigo. Lo que más me sorprendió fue el nivel técnico — no esperaba encontrar ese estándar acá. Volví con trabajo asegurado."', author: '[Nombre]', origin: '[Ciudad, País]' },
-]
-
 export default function Testimonios() {
+  const { t } = useTranslation()
   const sectionRef = useRef(null)
   const gridRef = useRef(null)
 
@@ -36,14 +32,14 @@ export default function Testimonios() {
         <div className="bg-overlay" />
       </div>
       <div className="container">
-        <p className="section-label" style={{ color: 'rgba(255,255,255,0.5)' }}>Testimonios</p>
-        <h2 className="section-title" style={{ color: 'var(--white)' }}><span style={{ fontFamily: 'var(--font)', fontWeight: 800, letterSpacing: '-0.03em' }}>LO QUE DICEN</span> <span style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 700, fontStyle: 'italic' }}>los que ya pasaron por Hevristika.</span></h2>
+        <p className="section-label" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('testimonios.label')}</p>
+        <h2 className="section-title" style={{ color: 'var(--white)' }}><span style={{ fontFamily: 'var(--font)', fontWeight: 800, letterSpacing: '-0.03em' }}>{t('testimonios.titleInter')}</span> <span style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 700, fontStyle: 'italic' }}>{t('testimonios.titleSerif')}</span></h2>
         <div className="grid" ref={gridRef}>
-          {testimonios.map((t, i) => (
+          {[0, 1, 2].map(i => (
             <div key={i} className="card">
-              <p className="quote">{t.quote}</p>
-              <p className="author">{t.author}</p>
-              <p className="origin">{t.origin}</p>
+              <p className="quote">{t(`testimonios.items.${i}.quote`)}</p>
+              <p className="author">{t(`testimonios.items.${i}.author`)}</p>
+              <p className="origin">{t(`testimonios.items.${i}.origin`)}</p>
             </div>
           ))}
         </div>

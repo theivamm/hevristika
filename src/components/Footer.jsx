@@ -1,26 +1,30 @@
+import { useTranslation } from '../i18n/i18n.jsx'
+
 export default function Footer() {
+  const { t } = useTranslation()
+
   return (
     <footer>
       <div className="container">
         <div className="grid">
           <div>
             <img src="/logo.svg" alt="Hevristika" className="logo-footer" />
-            <p>Formación profesional en bartending en Misiones, Argentina. Técnica internacional, entorno único, comunidad real.</p>
+            <p>{t('footer.description')}</p>
           </div>
           <div>
-            <h4>Programa</h4>
-            <a href="#programa">Contenido</a>
-            <a href="#inversion">Inversión</a>
+            <h4>{t('footer.programTitle')}</h4>
+            <a href="#programa">{t('footer.programLink1')}</a>
+            <a href="#inversion">{t('footer.programLink2')}</a>
           </div>
           <div>
-            <h4>Contacto</h4>
-            <a href="https://wa.me/549XXXXXXXXX">WhatsApp</a>
+            <h4>{t('footer.contactTitle')}</h4>
+            <a href="https://wa.me/549XXXXXXXXX">{t('footer.contactWhatsapp')}</a>
             <a href="mailto:info@hevristika.com">info@hevristika.com</a>
-            <a href="#cta-final">Reservar llamada</a>
+            <a href="#cta-final">{t('footer.contactReservar')}</a>
           </div>
         </div>
         <div className="bottom">
-          <p>&copy; 2026 Hevristika. Todos los derechos reservados.</p>
+          <p>{t('footer.copyright')}</p>
         </div>
       </div>
       <style>{`

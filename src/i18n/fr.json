@@ -1,0 +1,324 @@
+{
+  "nav": {
+    "cta": "Réservez votre appel"
+  },
+  "hero": {
+    "badge": "Misiones, Argentine — 4 semaines intensives",
+    "titleInter": "PLUS QUE DU BARTENDING :",
+    "titleSerif": "Une expérience réelle.",
+    "subheadline": "Changez votre vie dans la jungle de Misiones. Programmes intensifs à Misiones, en Argentine. Technique internationale, pratique réelle, communauté active et une expérience immersive dans l'une des destinations les plus biodiversifiées du monde.",
+    "cta": "Réservez votre appel gratuit →",
+    "footnote": "Sans engagement. En 15 minutes, nous vous expliquons tout sur le programme."
+  },
+  "problema": {
+    "titleInter": "CE N'EST PAS JUSTE UN COURS,",
+    "titleSerif": "c'est votre transformation.",
+    "text": "Pendant que d'autres vous enseignent la technique, chez Hevristika nous changeons votre réalité. Un mois à Misiones pour obtenir un niveau professionnel, des contacts réels et une expérience que peu de gens dans le monde peuvent raconter.",
+    "card1Label": "La Destination",
+    "card1Title": "Misiones : votre campus naturel à Puerto Lagier",
+    "card1Text": "Oubliez les salles de classe traditionnelles. Formez-vous dans un environnement unique conçu pour porter votre technique et votre état d'esprit au niveau supérieur. Une académie de cocktail en immersion totale que vous ne trouverez dans aucune autre ville.",
+    "card2Label": "L'Impact",
+    "card2Title": "D'Étudiant à Professionnel International",
+    "card2Text": "Chez Hevristika, vous n'apprenez pas seulement des recettes. Vous apprenez à penser comme un bartender : lire un bar, comprendre le client, concevoir des expériences, travailler sous pression et construire une identité professionnelle. Vous repartez avec des outils concrets pour travailler dans les bars, événements, hôtels, restaurants ou vos propres projets.",
+    "pills": {
+      "1": "Misiones, Argentine",
+      "2": "Programmes intensifs",
+      "3": "Groupes réduits",
+      "4": "Max. 12 étudiants",
+      "5": "Foodpairing",
+      "6": "Biotechnologie",
+      "7": "Étudiants internationaux",
+      "8": "Destination unique",
+      "9": "Pratique du bar",
+      "10": "Fondatrices avec formation internationale"
+    }
+  },
+  "queEs": {
+    "label": "Qu'est-ce que Hevristika",
+    "title": "Une académie de bartender professionnelle au cœur de la jungle de Misiones.",
+    "subtitle": "Hevristika est une académie intensive de cocktail professionnel située à Misiones, en Argentine, tout près des chutes d'Iguazú. Elle a été créée par deux bartenders argentines avec une expérience réelle du bar, une formation internationale et une vision claire : apporter un standard professionnel, humain et sensoriel dans une destination inoubliable.",
+    "pillar1Title": "Technique réelle",
+    "pillar1Desc": "Un entraînement pratique dès le premier jour, avec des standards professionnels appliqués à des situations réelles de bar.",
+    "pillar2Title": "Destination unique",
+    "pillar2Desc": "Vous vivez et apprenez à Misiones, une région traversée par la jungle, la culture, la biodiversité et une identité gastronomique propre.",
+    "pillar3Title": "Communauté active",
+    "pillar3Desc": "Les diplômés d'Hevristika font partie d'un véritable réseau de personnes qui collaborent, se recommandent et continuent de grandir ensemble."
+  },
+  "fundadoras": {
+    "label": "Les fondatrices",
+    "title": "Deux bartenders. Une vision partagée.",
+    "intro1": "Hevristika est née de l'union entre science, technique, durabilité, sensibilité, expérience réelle et une manière différente de comprendre l'hospitalité.",
+    "intro2": "Derrière le projet se trouvent Sofía Lagier et Verónica Báez : deux professionnelles argentines qui ont décidé de créer une académie où la cocktail se apprend avec exigence, critère, identité et connexion humaine.",
+    "card1Name": "Sofía Lagier",
+    "card1Desc": "Bartender professionnelle avec une formation internationale en Thaïlande, de l'expérience en cocktail, éducation et développement d'expériences. Son approche combine technique, stratégie, créativité et un regard sensoriel sur l'hospitalité.",
+    "card2Name": "Verónica Báez",
+    "card2Desc": "Bartender professionnelle et bar manager, avec de l'expérience en bar, service, formation et opération. Son regard apporte structure, précision, critère technique et une compréhension profonde du travail réel derrière une expérience de haut niveau.",
+    "outro": "Ensemble, elles ont conçu Hevristika comme une académie vivante : scientifique, exigeante, humaine, pratique et profondément connectée au territoire."
+  },
+  "hevristika": {
+    "label": "Hevristika",
+    "title": "Notre façon d'apprendre.",
+    "text1": "Hevristika part d'une idée simple : on apprend mieux quand on découvre, on essaie, on corrige et on recommence.",
+    "text2": "Le bar fonctionne comme un laboratoire humain : technique, erreur, service réel, jugement sensoriel et prise de décision sous pression.",
+    "text3": "Nous ne donnons pas de réponses toutes faites. Nous concevons des conditions pour que chaque élève trouve sa voix, son jugement et sa manière de créer."
+  },
+  "programa": {
+    "label": "Programmes",
+    "title": "Choisissez votre niveau d'immersion : des programmes conçus sans remplissage.",
+    "subtitle": "Un entraînement pratique pour développer la précision, la vitesse, le jugement et la confiance derrière le bar.",
+    "card1Title": "Formation Technique",
+    "card1Items": [
+      { "pill": "Durabilité", "title": "Mixologie Durable", "desc": "Développement d'ingrédients, valorisation des produits, réduction des déchets et conception de cartes avec des critères saisonniers." },
+      { "pill": "Technique", "title": "Techniques de Flair", "desc": "Manipulation de l'équipement, mouvements de présentation et ressources visuelles appliquées aux établissements haut de gamme." },
+      { "pill": "Précision", "title": "Free Pouring", "desc": "Précision sans jigger, contrôle des mesures et entraînement de la mémoire corporelle pour travailler avec fluidité." }
+    ],
+    "card2Title": "Projection Professionnelle",
+    "card2Items": [
+      { "pill": "Service", "title": "Opération Professionnelle de Bar", "desc": "Coûts, rendements, organisation du service, vitesse, lecture de salle, mise en place, standards de qualité et prise de décision sous pression." },
+      { "pill": "Carrière", "title": "Projection de Carrière", "desc": "Construction de profil, portfolio, réseau de contacts et outils pour vous positionner sur le marché." }
+    ]
+  },
+  "foodpairing": {
+    "label": "Foodpairing & Biotechnologie",
+    "title": "Foodpairing & Biotechnologie",
+    "subtitle": "Un laboratoire sensoriel où la science, la saveur et l'hospitalité s'intègrent pour créer une nouvelle génération de bartenders.",
+    "cards": [
+      {
+        "title": "Biotechnologie appliquée",
+        "desc": "Fermentation contrôlée, clarifications, utilisation d'enzymes, conservation intelligente et création d'ingrédients maison pour une cocktail plus technique, durable et créative.",
+        "tags": ["Fermentation", "Enzymes", "Clarifications", "Zero Waste"]
+      },
+      {
+        "title": "Foodpairing scientifique",
+        "desc": "Vous apprenez à travailler avec des molécules aromatiques, l'architecture de la saveur, des ponts sensoriels et des accords appliqués à la cocktail contemporaine.",
+        "tags": ["Arômes", "Flavor Design", "Accords", "Sensorialité"]
+      },
+      {
+        "title": "Conception d'expériences",
+        "desc": "Il ne s'agit pas seulement de faire des cocktails. Il s'agit de créer des moments mémorables à travers la saveur, l'esthétique, le service et le récit.",
+        "tags": ["Hospitalité", "Expérience", "Récit", "Service"]
+      }
+    ]
+  },
+  "destino": {
+    "label": "La destination",
+    "title": "Misiones n'est pas seulement là où vous étudiez. Cela fait partie de ce que vous apprenez.",
+    "sub1": "Misiones est la province la plus au nord-est de l'Argentine. Elle est frontalière du Brésil et du Paraguay, couverte de jungle subtropicale. Elle abrite les chutes d'Iguazú — l'une des merveilles naturelles du monde.",
+    "sub2": "Vivre ici un mois, ce n'est pas seulement étudier dans un bel endroit. C'est repartir avec des références qu'aucun programme à Buenos Aires ou en Europe ne peut vous donner.",
+    "imageCredit": "Puerto Lagier, Misiones"
+  },
+  "diferenciales": {
+    "label": "Pourquoi Hevristika",
+    "titleInter": "POURQUOI HEVRISTIKA",
+    "titleSerif": "et pas une autre académie ?",
+    "cards": [
+      { "title": "Niveau international. Expérience immersive.", "desc": "De zéro à bartender professionnel en combinant pratique, hospitalité, science et expérience immersive à Misiones, Argentine. Un investissement compétitif face à de nombreuses écoles internationales, avec beaucoup plus d'accompagnement, de profondeur pratique et de connexion humaine." },
+      { "title": "Environnement réel, pas simulé", "desc": "Vous apprenez dans un espace de travail réel, avec des standards de bar professionnel et des situations appliquées dès le premier jour." },
+      { "title": "Groupes réduits", "desc": "Places limitées pour que chaque élève bénéficie d'un suivi direct, d'une correction personnalisée et d'une expérience plus approfondie." },
+      { "title": "Fondatrices en activité", "desc": "Apprenez avec des professionnelles en activité, pas avec une théorie déconnectée de la réalité du service." },
+      { "title": "Réseau d'anciens actif", "desc": "Une vraie communauté qui collabore, se recommande et reste connectée après le programme." },
+      { "title": "Flexibilité totale", "desc": "Nous vous facilitons et orientons sur l'hébergement, les transferts, la logistique et les expériences supplémentaires." }
+    ]
+  },
+  "testimonios": {
+    "label": "Témoignages",
+    "titleInter": "CE QUE DISENT",
+    "titleSerif": "ceux qui sont passés par Hevristika.",
+    "items": [
+      { "quote": "\"Je suis venu sans savoir à quoi m'attendre et je suis reparti avec un niveau que je n'imaginais pas pouvoir atteindre en quatre semaines. Misiones change votre perspective — pas seulement sur le bartending, mais sur beaucoup de choses.\"", "author": "[Nom]", "origin": "[Ville, Pays]" },
+      { "quote": "\"L'environnement vous pousse à vous concentrer comme vous ne pourriez pas le faire en ville. Chaque jour est une pratique intensive, et le groupe devient votre réseau de soutien.\"", "author": "[Nom]", "origin": "[Ville, Pays]" },
+      { "quote": "\"Je suis venu d'Europe sur la recommandation d'un ami. Ce qui m'a le plus surpris, c'est le niveau technique — je ne m'attendais pas à trouver ce standard ici. Je suis rentré avec un emploi assuré.\"", "author": "[Nom]", "origin": "[Ville, Pays]" }
+    ]
+  },
+  "inversion": {
+    "label": "Investissement",
+    "title": "L'investissement dans votre formation.",
+    "subtitle": "Les prix varient selon le programme choisi et les expériences supplémentaires que vous souhaitez ajouter pendant votre séjour.",
+    "programs": [
+      {
+        "badge": "PROGRAMME INTENSIF DE BASE",
+        "title": "1 semaine · Real Immersion",
+        "price": "USD 1 100",
+        "period": "/ programme",
+        "sub": "Cours + hébergement + petit-déjeuner et déjeuner",
+        "features": [
+          "Formation intensive de base d'1 semaine",
+          "Hébergement pendant le programme",
+          "Petit-déjeuner et déjeuner",
+          "Pratique et technique appliquée",
+          "Introduction à la cocktail professionnelle",
+          "Introduction au Foodpairing",
+          "Introduction à la Biotechnologie",
+          "Techniques de base de cocktail",
+          "Accompagnement pendant le séjour"
+        ],
+        "extra": "Idéal pour ceux qui veulent vivre une expérience brève, intense et transformatrice à Misiones.",
+        "optional": "Vous pouvez ajouter l'expérience aux chutes d'Iguazú pendant le premier week-end.",
+        "cta": "Se renseigner sur le programme d'1 semaine"
+      },
+      {
+        "badge": "PROGRAMME COMPLET",
+        "title": "4 semaines · Total Transformation",
+        "price": "À partir de USD 3 080",
+        "period": "/ programme",
+        "sub": "Cours + hébergement + petit-déjeuner et déjeuner",
+        "features": [
+          "Programme complet de 4 semaines",
+          "Hébergement pendant le cours",
+          "Petit-déjeuner et déjeuner",
+          "Matériel d'étude",
+          "Accès aux installations",
+          "Pratique réelle du bar",
+          "Formation technique, sensorielle et professionnelle",
+          "Foodpairing avancé",
+          "Biotechnologie avancée",
+          "Techniques avancées de cocktail",
+          "Accompagnement pendant l'expérience"
+        ],
+        "cta": "Se renseigner sur le programme de 4 semaines"
+      },
+      {
+        "badge": "EXPÉRIENCE COMPLÈTE",
+        "title": "4 semaines + Iguazú + Buenos Aires",
+        "price": "USD 4 760",
+        "period": "/ programme",
+        "sub": "Programme complet + voyage aux chutes d'Iguazú + tour des bars à Buenos Aires",
+        "features": [
+          "Tout inclus dans le programme de 4 semaines",
+          "Expérience aux chutes d'Iguazú",
+          "Tour de Buenos Aires dans les bars reconnus par The World's 50 Best Bars",
+          "Transferts, hébergements et accès aux parcs",
+          "Accompagnement logistique",
+          "Expérience culturelle et professionnelle élargie"
+        ],
+        "cta": "Je veux l'expérience complète"
+      }
+    ],
+    "breakdownTitle": "Détail de l'investissement",
+    "breakdown": [
+      { "name": "Programme 1 semaine", "price": "USD 1 100", "includes": "Cours + hébergement + petit-déjeuner et déjeuner" },
+      { "name": "Programme 4 semaines", "price": "USD 3 080", "includes": "Cours + hébergement + petit-déjeuner et déjeuner" },
+      { "name": "Expérience Chutes d'Iguazú", "price": "USD 600", "includes": "Hébergement + transfert + accès aux parcs", "note": "Optionnel pour les programmes sélectionnés" },
+      { "name": "Tour Buenos Aires / 50 Best Bars", "price": "USD 1 080", "includes": "Transferts + hébergement — Expérience professionnelle et culturelle dans les bars de renom" },
+      { "name": "Combo complet", "price": "USD 4 760", "includes": "Programme 4 semaines + Iguazú + Buenos Aires" }
+    ],
+    "footnote": "Seuls l'hébergement local et les transferts sont inclus. Les vols internationaux ne sont pas inclus. Nous vous mettons en relation avec une agence de voyages partenaire pour la facturation et pour vous aider à organiser votre arrivée en Argentine."
+  },
+  "ctaCierre": {
+    "label": "Dernières places",
+    "title": "Les cohortes sont des groupes restreints. Les places pour le prochain programme sont limitées.",
+    "sub": "Si vous pensez venir, le meilleur moment pour parler à l'équipe est maintenant.",
+    "cta": "Réserver mon appel gratuit →",
+    "footnote": "Sans engagement. Sans pression. Une conversation pour que vous décidiez avec toutes les informations."
+  },
+  "ctaForm": {
+    "label": "Réservez votre appel",
+    "title": "Vous voulez savoir si ce programme est fait pour vous ?",
+    "sub": "Parlez à l'équipe d'Hevristika. En 30 minutes, nous vous disons tout sur le programme, les dates disponibles et comment organiser votre venue depuis où vous êtes.",
+    "alert": "Merci de votre intérêt. Nous vous contacterons bientôt pour coordonner votre appel gratuit.",
+    "form": {
+      "nameLabel": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@email.com",
+      "countryLabel": "Pays / Ville d'origine",
+      "countryPlaceholder": "Ex : Madrid, Espagne",
+      "programInterestLabel": "Programme d'intérêt",
+      "programInterestDefault": "Sélectionnez un programme",
+      "programInterestOpt1": "Programme 1 semaine · Real Immersion",
+      "programInterestOpt2": "Programme 4 semaines · Total Transformation",
+      "programInterestOpt3": "Expérience complète · 4 semaines + Iguazú + Buenos Aires",
+      "programInterestOpt4": "Pas encore sûr, je veux des conseils",
+      "availabilityLabel": "Quand seriez-vous disponible ?",
+      "availabilityDefault": "Sélectionnez un mois",
+      "availabilityOpt1": "3 prochains mois",
+      "availabilityOpt2": "3 à 6 mois",
+      "availabilityOpt3": "6 à 12 mois",
+      "availabilityOpt4": "Pas encore sûr",
+      "experienceLabel": "Avez-vous de l'expérience ?",
+      "experienceDefault": "Sélectionnez une option",
+      "experienceOpt1": "Non, je suis débutant",
+      "experienceOpt2": "J'ai un peu d'expérience",
+      "experienceOpt3": "Je suis bartender professionnel",
+      "tourExperienceLabel": "Souhaitez-vous ajouter des expériences touristiques ?",
+      "tourExperienceDefault": "Sélectionnez une option",
+      "tourExperienceOpt1": "Oui, les chutes d'Iguazú",
+      "tourExperienceOpt2": "Oui, Buenos Aires / 50 Best Bars",
+      "tourExperienceOpt3": "Oui, les deux",
+      "tourExperienceOpt4": "Pas pour le moment",
+      "tourExperienceOpt5": "Je veux des conseils"
+    },
+    "submit": "Réserver mon appel gratuit",
+    "whatsappLabel": "Ou écrivez-nous directement sur WhatsApp",
+    "whatsappLink": "Écrivez-nous sur WhatsApp"
+  },
+  "ctaFinal": {
+    "label": "Réservez votre appel — Dernières places",
+    "titleInter": "VOUS VOULEZ SAVOIR SI CE PROGRAMME",
+    "titleSerif": "est fait pour vous ?",
+    "sub": "Parlez à l'équipe d'Hevristika. En 30 minutes, nous vous disons tout sur le programme, les dates disponibles et comment organiser votre venue depuis où vous êtes.",
+    "alert": "Merci de votre intérêt. Nous vous contacterons bientôt.",
+    "form": {
+      "nameLabel": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@email.com",
+      "countryLabel": "Pays / Ville d'origine",
+      "countryPlaceholder": "Ex : Madrid, Espagne",
+      "programInterestLabel": "Programme d'intérêt",
+      "programInterestDefault": "Sélectionnez un programme",
+      "programInterestOpt1": "Programme 1 semaine · Real Immersion",
+      "programInterestOpt2": "Programme 4 semaines · Total Transformation",
+      "programInterestOpt3": "Expérience complète · 4 semaines + Iguazú + Buenos Aires",
+      "programInterestOpt4": "Pas encore sûr, je veux des conseils",
+      "availabilityLabel": "Quand seriez-vous disponible ?",
+      "availabilityDefault": "Sélectionnez un mois",
+      "availabilityOpt1": "3 prochains mois",
+      "availabilityOpt2": "3 à 6 mois",
+      "availabilityOpt3": "6 à 12 mois",
+      "availabilityOpt4": "Pas encore sûr",
+      "experienceLabel": "Avez-vous de l'expérience ?",
+      "experienceDefault": "Sélectionnez une option",
+      "experienceOpt1": "Non, je suis débutant",
+      "experienceOpt2": "J'ai un peu d'expérience",
+      "experienceOpt3": "Je suis bartender professionnel",
+      "tourExperienceLabel": "Souhaitez-vous ajouter des expériences touristiques ?",
+      "tourExperienceDefault": "Sélectionnez une option",
+      "tourExperienceOpt1": "Oui, les chutes d'Iguazú",
+      "tourExperienceOpt2": "Oui, Buenos Aires / 50 Best Bars",
+      "tourExperienceOpt3": "Oui, les deux",
+      "tourExperienceOpt4": "Pas pour le moment",
+      "tourExperienceOpt5": "Je veux des conseils"
+    },
+    "submit": "Réserver mon appel gratuit",
+    "whatsappLabel": "Ou écrivez-nous directement sur WhatsApp",
+    "whatsappLink": "Écrivez-nous sur WhatsApp",
+    "cards": [
+      { "label": "Limite", "value": "12 étudiants" },
+      { "label": "Prochaine cohorte", "value": "Consulter les dates" },
+      { "label": "Occupation actuelle", "value": "70% réservé" }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Questions fréquentes.",
+    "items": [
+      { "q": "Ai-je besoin d'un visa pour entrer en Argentine ?", "a": "Cela dépend de votre pays d'origine. La plupart des pays européens et sud-américains ont un accord d'entrée libre avec l'Argentine pour les séjours jusqu'à 90 jours. Si vous avez des doutes sur votre cas spécifique, nous le confirmons lors de l'appel." },
+      { "q": "Où loger pendant le programme ?", "a": "Pour les étudiants étrangers, nous fournissons des conseils sur les options d'hébergement près des installations. L'Expérience Complète (USD 4 200) inclut l'hébergement. Lors de l'appel, nous détaillons les options disponibles selon votre budget et vos préférences." },
+      { "q": "Le programme est-il en espagnol ? Puis-je le suivre si je ne parle pas bien espagnol ?", "a": "Le programme est dispensé en espagnol. Si votre niveau d'espagnol est basique, parlez-en avec nous lors de l'appel — en fonction de votre profil, nous évaluons ensemble si c'est viable et comment vous accompagner pendant le programme." },
+      { "q": "Quel niveau préalable de bartending est nécessaire ?", "a": "Aucune expérience préalable n'est nécessaire. Le programme est conçu pour que les débutants comme les personnes ayant une base préalable puissent profiter au maximum des quatre semaines. Si vous avez déjà de l'expérience, lors de l'appel nous évaluons sur quels aspects le programme vous apporte le plus." },
+      { "q": "Peut-on payer en plusieurs fois ?", "a": "Oui. Lors de l'appel, nous vous expliquons les options de paiement disponibles pour les étudiants étrangers." },
+      { "q": "Que se passe-t-il si je dois changer la date après mon inscription ?", "a": "Il y a de la flexibilité pour les changements de date avec un préavis. Les conditions exactes vous seront expliquées en détail lors de l'appel." }
+    ]
+  },
+  "footer": {
+    "description": "Formation professionnelle en bartending à Misiones, Argentine. Technique internationale, environnement unique, communauté réelle.",
+    "programTitle": "Programme",
+    "programLink1": "Contenu",
+    "programLink2": "Investissement",
+    "contactTitle": "Contact",
+    "contactWhatsapp": "WhatsApp",
+    "contactReservar": "Réserver un appel",
+    "copyright": "© 2026 Hevristika. Tous droits réservés."
+  }
+}

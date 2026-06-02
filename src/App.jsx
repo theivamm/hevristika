@@ -5,7 +5,10 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Problema from './components/Problema'
 import QueEs from './components/QueEs'
+import Fundadoras from './components/Fundadoras'
+import HevristikaMetodo from './components/HevristikaMetodo'
 import Programa from './components/Programa'
+import Foodpairing from './components/Foodpairing'
 import Destino from './components/Destino'
 import Diferenciales from './components/Diferenciales'
 import Testimonios from './components/Testimonios'
@@ -31,7 +34,10 @@ export default function App() {
       <Hero />
       <Problema />
       <QueEs />
+      <Fundadoras />
+      <HevristikaMetodo />
       <Programa />
+      <Foodpairing />
       <Destino />
       <Diferenciales />
       <Testimonios />

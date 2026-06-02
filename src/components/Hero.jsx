@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
-
-const heroTitle = { inter: 'MÁS QUE BARTENDING:', serif: 'Una experiencia real.' }
+import { useTranslation } from '../i18n/i18n.jsx'
 
 export default function Hero() {
+  const { t } = useTranslation()
   const titleRef = useRef(null)
   const subRef = useRef(null)
   const btnRef = useRef(null)
@@ -62,14 +62,14 @@ export default function Hero() {
         ))}
       </div>
       <div className="container">
-        <div ref={badgeRef} className="hero-badge">Misiones, Argentina — 4 semanas intensivas</div>
+        <div ref={badgeRef} className="hero-badge">{t('hero.badge')}</div>
         <h1 ref={titleRef} id="hero-title">
-          <span className="hero-line hero-line-inter">{heroTitle.inter}</span>
-          <span className="hero-line hero-line-serif">{heroTitle.serif}</span>
+          <span className="hero-line hero-line-inter">{t('hero.titleInter')}</span>
+          <span className="hero-line hero-line-serif">{t('hero.titleSerif')}</span>
         </h1>
-        <p ref={subRef} className="subheadline">4 semanas intensivas en Misiones, Argentina. Técnica internacional, entorno único, comunidad real.</p>
-        <a ref={btnRef} href="#cta-form" className="btn btn-primary" style={{ background: '#99e4df', color: '#000', border: 'none' }}>Reservá tu llamada gratuita →</a>
-        <p ref={footnoteRef} className="hero-footnote">Sin compromiso. En 30 minutos te explicamos todo sobre el programa.</p>
+        <p ref={subRef} className="subheadline">{t('hero.subheadline')}</p>
+        <a ref={btnRef} href="#cta-form" className="btn btn-primary" style={{ background: '#99e4df', color: '#000', border: 'none' }}>{t('hero.cta')}</a>
+        <p ref={footnoteRef} className="hero-footnote">{t('hero.footnote')}</p>
       </div>
       <style>{`
         #hero{min-height:100vh;display:flex;align-items:center;padding-top:80px;position:relative;overflow:hidden;background:#000}

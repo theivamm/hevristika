@@ -1,8 +1,10 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useTranslation } from '../i18n/i18n.jsx'
 
 export default function Programa() {
+  const { t } = useTranslation()
   const sectionRef = useRef(null)
 
   useEffect(() => {
@@ -23,25 +25,25 @@ export default function Programa() {
     <section id="programa" ref={sectionRef}>
       <div className="container">
         <div className="pg-top">
-          <p className="pg-label">El programa</p>
-          <h2 className="pg-title"><span className="pg-title-inter">CUATRO SEMANAS.</span> <span className="pg-title-serif">Un programa diseñado sin relleno.</span></h2>
-          <p className="pg-sub">El contenido está construido para que a las cuatro semanas tengas el nivel técnico y la confianza para trabajar en cualquier barra del mundo.</p>
+          <p className="pg-label">{t('programa.label')}</p>
+          <h2 className="pg-title">{t('programa.title')}</h2>
+          <p className="pg-sub">{t('programa.subtitle')}</p>
         </div>
         <div className="pg-cards">
           <div className="pg-card">
-            <h3 className="pg-card-title">Formación Técnica</h3>
+            <h3 className="pg-card-title">{t('programa.card1Title')}</h3>
             <ul className="pg-card-list">
-              <li><span className="pg-pill">Técnica</span><strong>Técnicas de Flair</strong><span>Manejo del equipo, movimientos de presentación y técnica para espacios de alto nivel.</span></li>
-              <li><span className="pg-pill">Precisión</span><strong>Free Pour</strong><span>Precisión sin jigger. Una habilidad que diferencia a los bartenders formados de los autodidactas.</span></li>
-              <li><span className="pg-pill">Sustentabilidad</span><strong>Mixología Sustentable</strong><span>Desarrollo de cartas con criterio de temporada, reducción de desperdicio y diferenciación por propuesta.</span></li>
+              <li><span className="pg-pill">{t('programa.card1Items.0.pill')}</span><strong>{t('programa.card1Items.0.title')}</strong><span>{t('programa.card1Items.0.desc')}</span></li>
+              <li><span className="pg-pill">{t('programa.card1Items.1.pill')}</span><strong>{t('programa.card1Items.1.title')}</strong><span>{t('programa.card1Items.1.desc')}</span></li>
+              <li><span className="pg-pill">{t('programa.card1Items.2.pill')}</span><strong>{t('programa.card1Items.2.title')}</strong><span>{t('programa.card1Items.2.desc')}</span></li>
             </ul>
           </div>
           <div className="pg-card">
-            <h3 className="pg-card-title">Proyección Profesional</h3>
+            <h3 className="pg-card-title">{t('programa.card2Title')}</h3>
             <ul className="pg-card-list">
-              <li><span className="pg-pill">Maridaje</span><strong>Foodpairing</strong><span>Maridaje entre cocktails y gastronomía. Cómo diseñar experiencias completas para el cliente.</span></li>
-              <li><span className="pg-pill">Servicio</span><strong>Operación Profesional de Barra</strong><span>Gestión del servicio, velocidad, lectura de la sala y estándares de un bar de nivel internacional.</span></li>
-              <li><span className="pg-pill">Carrera</span><strong>Proyección de Carrera</strong><span>Cómo posicionarte en el mercado, armar tu portafolio y aprovechar la red de egresados.</span></li>
+              <li><span className="pg-pill">{t('programa.card2Items.0.pill')}</span><strong>{t('programa.card2Items.0.title')}</strong><span>{t('programa.card2Items.0.desc')}</span></li>
+              <li><span className="pg-pill">{t('programa.card2Items.1.pill')}</span><strong>{t('programa.card2Items.1.title')}</strong><span>{t('programa.card2Items.1.desc')}</span></li>
+              <li><span className="pg-pill">{t('programa.card2Items.2.pill')}</span><strong>{t('programa.card2Items.2.title')}</strong><span>{t('programa.card2Items.2.desc')}</span></li>
             </ul>
           </div>
         </div>

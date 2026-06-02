@@ -1,8 +1,10 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useTranslation } from '../i18n/i18n.jsx'
 
 export default function CtaCierre() {
+  const { t } = useTranslation()
   const sectionRef = useRef(null)
 
   useEffect(() => {
@@ -18,11 +20,11 @@ export default function CtaCierre() {
   return (
     <section id="cta-cierre" ref={sectionRef}>
       <div className="container">
-        <p className="section-label" style={{ color: 'rgba(255,255,255,0.5)' }}>Últimos lugares</p>
-        <h2 className="section-title" style={{ color: 'var(--white)' }}>Las cohortes son grupos reducidos. Los lugares para el próximo programa son limitados.</h2>
-        <p className="section-sub" style={{ margin: '0 auto 32px', color: 'rgba(255,255,255,0.75)' }}>Si estás pensando en venir, el mejor momento para hablar con el equipo es ahora.</p>
-        <a href="#cta-form" className="btn" style={{ background: 'var(--white)', color: 'var(--green)', fontSize: 18, padding: '18px 48px' }}>Reservar mi llamada gratuita →</a>
-        <p className="footnote" style={{ fontSize: 14, color: 'rgba(255,255,255,0.5)', marginTop: 16 }}>Sin compromiso. Sin presión. Una conversación para que decidas con toda la información.</p>
+        <p className="section-label" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('ctaCierre.label')}</p>
+        <h2 className="section-title" style={{ color: 'var(--white)' }}>{t('ctaCierre.title')}</h2>
+        <p className="section-sub" style={{ margin: '0 auto 32px', color: 'rgba(255,255,255,0.75)' }}>{t('ctaCierre.sub')}</p>
+        <a href="#cta-form" className="btn" style={{ background: 'var(--white)', color: 'var(--green)', fontSize: 18, padding: '18px 48px' }}>{t('ctaCierre.cta')}</a>
+        <p className="footnote" style={{ fontSize: 14, color: 'rgba(255,255,255,0.5)', marginTop: 16 }}>{t('ctaCierre.footnote')}</p>
       </div>
       <style>{`
         #cta-cierre{background:linear-gradient(135deg,var(--green) 0%,var(--green-dark) 100%);text-align:center;position:relative;overflow:hidden}

@@ -1,8 +1,10 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useTranslation } from '../i18n/i18n.jsx'
 
 export default function Destino() {
+  const { t } = useTranslation()
   const sectionRef = useRef(null)
   const imgWrapRef = useRef(null)
 
@@ -29,13 +31,14 @@ export default function Destino() {
       <div className="container">
         <div className="grid">
           <div className="image-wrap" ref={imgWrapRef}>
-            <img src="/imgs/Cocktails_juices_bar_products_202605111941 (2).jpeg" alt="Misiones, Argentina" />
+            <img src="/imgs/puerto-o1.jpeg" alt="Puerto Lagier, Misiones" />
+            <span className="img-credit">{t('destino.imageCredit')}</span>
           </div>
           <div className="text">
-            <p className="section-label">El destino</p>
-            <h2 className="section-title">Misiones no es solo donde estudiás. Es parte de lo que aprendés.</h2>
-            <p className="section-sub">Misiones es la provincia más al noreste de Argentina. Limita con Brasil y Paraguay, cubierta de selva subtropical. Alberga las Cataratas del Iguazú — una de las maravillas naturales del mundo.</p>
-            <p className="section-sub" style={{ marginTop: 12 }}>Vivir un mes acá no es solo estudiar en un lugar bonito. Es salir con referencias que ningún programa en Buenos Aires o en Europa puede darte.</p>
+            <p className="section-label">{t('destino.label')}</p>
+            <h2 className="section-title">{t('destino.title')}</h2>
+            <p className="section-sub">{t('destino.sub1')}</p>
+            <p className="section-sub" style={{ marginTop: 12 }}>{t('destino.sub2')}</p>
           </div>
         </div>
       </div>
@@ -46,7 +49,7 @@ export default function Destino() {
         @media(min-width:768px){#destino .grid{grid-template-columns:1fr 1fr;gap:60px;align-items:center}}
         #destino .image-wrap{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/3}
         #destino .image-wrap img{width:100%;height:100%;object-fit:cover}
-        #destino .image-wrap::after{content:'Iguazú Falls, Misiones';position:absolute;bottom:16px;left:16px;font-size:12px;color:rgba(255,255,255,0.7);background:rgba(0,0,0,0.4);padding:4px 12px;border-radius:20px}
+        #destino .image-wrap .img-credit{position:absolute;bottom:16px;left:16px;font-size:12px;color:rgba(255,255,255,0.7);background:rgba(0,0,0,0.4);padding:4px 12px;border-radius:20px}
       `}</style>
     </section>
   )

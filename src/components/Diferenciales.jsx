@@ -1,18 +1,13 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useTranslation } from '../i18n/i18n.jsx'
 import { Euro, Building2, Users, GlassWater, Handshake, Plane } from 'lucide-react'
 
-const cards = [
-  { icon: Euro, title: 'Nivel internacional sin precio europeo', desc: 'El mismo nivel que las mejores escuelas del mundo, a un costo que refleja el contexto argentino.' },
-  { icon: Building2, title: 'Entorno real, no simulado', desc: 'Aprendés en un espacio de trabajo real con los mismos estándares que un bar profesional.' },
-  { icon: Users, title: 'Grupos reducidos', desc: 'Grupos chicos para que cada alumno tenga atención directa y personalizada del instructor.' },
-  { icon: GlassWater, title: 'Fundadores que ejercen', desc: 'Bartenders en actividad con formación internacional. No académicos — profesionales que enseñan.' },
-  { icon: Handshake, title: 'Red de egresados activa', desc: 'Una comunidad real que colabora, se recomienda y trabaja junta después del programa.' },
-  { icon: Plane, title: 'Flexibilidad total', desc: 'Orientación sobre alojamiento, traslados y logística para que vengas desde donde estés.' },
-]
+const icons = [Euro, Building2, Users, GlassWater, Handshake, Plane]
 
 export default function Diferenciales() {
+  const { t } = useTranslation()
   const sectionRef = useRef(null)
 
   useEffect(() => {
@@ -34,14 +29,14 @@ export default function Diferenciales() {
       <div className="df-glow df-glow-1" />
       <div className="df-glow df-glow-2" />
       <div className="container">
-        <p className="df-label">Por qué Hevristika</p>
-        <h2 className="df-title"><span className="df-title-inter">¿POR QUÉ HEVRISTIKA</span> <span className="df-title-serif">y no otra escuela?</span></h2>
+        <p className="df-label">{t('diferenciales.label')}</p>
+        <h2 className="df-title"><span className="df-title-inter">{t('diferenciales.titleInter')}</span> <span className="df-title-serif">{t('diferenciales.titleSerif')}</span></h2>
         <div className="df-grid">
-          {cards.map((c, i) => (
+          {icons.map((Icon, i) => (
             <div key={i} className="df-card">
-              <c.icon size={24} className="df-icon" strokeWidth={1.5} />
-              <h3>{c.title}</h3>
-              <p>{c.desc}</p>
+              <Icon size={24} className="df-icon" strokeWidth={1.5} />
+              <h3>{t(`diferenciales.cards.${i}.title`)}</h3>
+              <p>{t(`diferenciales.cards.${i}.desc`)}</p>
             </div>
           ))}
         </div>

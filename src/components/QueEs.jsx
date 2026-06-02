@@ -1,9 +1,11 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useTranslation } from '../i18n/i18n.jsx'
 import queesVideo from '../assets/videos/quees.mp4'
 
 export default function QueEs() {
+  const { t } = useTranslation()
   const cardRef = useRef(null)
 
   useEffect(() => {
@@ -28,21 +30,21 @@ export default function QueEs() {
       <div className="qe-overlay" />
       <div className="container">
         <div className="qe-card" ref={cardRef}>
-          <p className="qe-label">Qué es Hevristika</p>
-          <h2 className="qe-title">Una escuela de bartending profesional en el corazón de la selva misionera.</h2>
-          <p className="qe-sub">Hevristika es un programa intensivo de formación en bartending y coctelería profesional, ubicado en Misiones, Argentina — a pasos de las Cataratas del Iguazú. Creado por bartenders formados en la European Bartender School de Tailandia, con el objetivo de traer un estándar internacional a un destino que no se olvida.</p>
+          <p className="qe-label">{t('queEs.label')}</p>
+          <h2 className="qe-title">{t('queEs.title')}</h2>
+          <p className="qe-sub">{t('queEs.subtitle')}</p>
           <div className="qe-pillars">
             <div className="qe-pillar">
-              <strong>Técnica real</strong>
-              <p>El mismo nivel exigente que encontrás en las mejores escuelas del mundo, aplicado desde el primer día.</p>
+              <strong>{t('queEs.pillar1Title')}</strong>
+              <p>{t('queEs.pillar1Desc')}</p>
             </div>
             <div className="qe-pillar">
-              <strong>Destino único</strong>
-              <p>Vivís y aprendés en Misiones. La región más biodiversa de Argentina, con una cultura gastronómica propia.</p>
+              <strong>{t('queEs.pillar2Title')}</strong>
+              <p>{t('queEs.pillar2Desc')}</p>
             </div>
             <div className="qe-pillar">
-              <strong>Comunidad activa</strong>
-              <p>Los egresados de Hevristika no desaparecen. Hay una red real de personas que siguen en contacto, colaborando y recomendándose.</p>
+              <strong>{t('queEs.pillar3Title')}</strong>
+              <p>{t('queEs.pillar3Desc')}</p>
             </div>
           </div>
         </div>

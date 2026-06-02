@@ -1,11 +1,29 @@
+import { useTranslation } from '../i18n/i18n.jsx'
+
+const LANGUAGES = ['ES', 'EN', 'FR']
+const LANGS = { ES: 'es', EN: 'en', FR: 'fr' }
+
 export default function Nav() {
+  const { lang, setLang, t } = useTranslation()
+
   return (
     <nav id="nav">
       <div className="nav-inner">
         <a href="#" className="logo">
           <img src="/logo.svg" alt="Hevristika" />
         </a>
-        <a href="#cta-final" className="nav-cta">Reservá tu llamada</a>
+        <div className="nav-lang">
+          {LANGUAGES.map(l => (
+            <button
+              key={l}
+              className={`nav-lang-btn${LANGS[l] === lang ? ' active' : ''}`}
+              onClick={() => setLang(LANGS[l])}
+            >
+              {l}
+            </button>
+          ))}
+        </div>
+        <a href="#cta-final" className="nav-cta">{t('nav.cta')}</a>
       </div>
       <style>{`
         nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 0;transition:all 0.4s ease}
@@ -16,8 +34,13 @@ export default function Nav() {
         nav.scrolled .logo img{height:28px;width:auto;filter:brightness(0) invert(1)}
         nav .logo{height:36px;width:auto}
         nav .logo img{height:36px;width:auto}
+        .nav-lang{display:flex;gap:2px;background:rgba(255,255,255,0.08);border-radius:50px;padding:3px;margin:0 8px}
+        .nav-lang-btn{background:none;border:none;color:rgba(255,255,255,0.5);font-size:11px;font-weight:600;padding:4px 8px;border-radius:50px;cursor:pointer;transition:all 0.3s ease;font-family:var(--font);letter-spacing:0.5px}
+        .nav-lang-btn.active{background:rgba(255,255,255,0.15);color:var(--white)}
+        .nav-lang-btn:hover{color:rgba(255,255,255,0.8)}
         .nav-cta{background:#99e4df;color:#000;padding:10px 24px;border-radius:50px;font-size:14px;font-weight:600;transition:opacity 0.3s ease;white-space:nowrap}
         .nav-cta:hover{opacity:0.9}
+        @media(max-width:767px){.nav-lang-btn{font-size:10px;padding:3px 6px}.nav-cta{padding:8px 16px;font-size:12px}}
         @media(min-width:768px){nav .nav-inner{padding:0 40px}}
       `}</style>
     </nav>
