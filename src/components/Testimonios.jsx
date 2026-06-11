@@ -35,13 +35,20 @@ export default function Testimonios() {
         <p className="section-label" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('testimonios.label')}</p>
         <h2 className="section-title" style={{ color: 'var(--white)' }}><span style={{ fontFamily: 'var(--font)', fontWeight: 800, letterSpacing: '-0.03em' }}>{t('testimonios.titleInter')}</span> <span style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 700, fontStyle: 'italic' }}>{t('testimonios.titleSerif')}</span></h2>
         <div className="grid" ref={gridRef}>
-          {[0, 1, 2].map(i => (
-            <div key={i} className="card">
-              <p className="quote">{t(`testimonios.items.${i}.quote`)}</p>
-              <p className="author">{t(`testimonios.items.${i}.author`)}</p>
-              <p className="origin">{t(`testimonios.items.${i}.origin`)}</p>
-            </div>
-          ))}
+          {[0, 1, 2].map(i => {
+            const imgs = ['Hanna.jpg', 'Ale.jpeg', 'Catherine.jpeg']
+            return (
+              <div key={i} className="card">
+                <div className="card-img">
+                  <img src={`/imgs/testimonios/${imgs[i]}`} alt="" />
+                </div>
+                <div className="card-body">
+                  <span className="author">{t(`testimonios.items.${i}.author`)}</span>
+                  <p className="quote">{t(`testimonios.items.${i}.quote`)}</p>
+                </div>
+              </div>
+            )
+          })}
         </div>
       </div>
       <style>{`
@@ -53,10 +60,13 @@ export default function Testimonios() {
         #testimonios .section-sub{color:rgba(255,255,255,0.7)}
         #testimonios .grid{display:grid;gap:20px;margin-top:48px}
         @media(min-width:768px){#testimonios .grid{grid-template-columns:repeat(3,1fr);gap:24px}}
-        #testimonios .card{background:rgba(255,255,255,0.08);backdrop-filter:blur(10px);padding:20px 28px;border-radius:var(--radius);border:1px solid rgba(255,255,255,0.1)}
-        #testimonios .card .quote{font-size:14px;line-height:1.7;margin-bottom:16px;opacity:0.9;font-style:italic}
-        #testimonios .card .author{font-weight:600;font-size:14px}
-        #testimonios .card .origin{font-size:12px;opacity:0.6;margin-top:4px}
+        #testimonios .card{border-radius:12px;border:1px solid rgba(255,255,255,0.1);overflow:hidden;display:flex;flex-direction:column;height:100%}
+        #testimonios .card-img{height:220px;overflow:hidden;flex-shrink:0;border-radius:12px 12px 0 0}
+        #testimonios .card-img img{width:100%;height:100%;object-fit:cover}
+        #testimonios .card-body{padding:20px 24px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+        #testimonios .card .author{font-weight:700;font-size:15px;color:#9ce9e3;letter-spacing:-0.01em}
+        #testimonios .card .quote{font-size:13px;line-height:1.7;color:rgba(255,255,255,0.85);font-style:italic}
+        @media(min-width:768px){#testimonios .card-img{height:260px}}
       `}</style>
     </section>
   )

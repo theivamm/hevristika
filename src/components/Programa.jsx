@@ -43,7 +43,6 @@ export default function Programa() {
             <ul className="pg-card-list">
               <li><span className="pg-pill">{t('programa.card2Items.0.pill')}</span><strong>{t('programa.card2Items.0.title')}</strong><span>{t('programa.card2Items.0.desc')}</span></li>
               <li><span className="pg-pill">{t('programa.card2Items.1.pill')}</span><strong>{t('programa.card2Items.1.title')}</strong><span>{t('programa.card2Items.1.desc')}</span></li>
-              <li><span className="pg-pill">{t('programa.card2Items.2.pill')}</span><strong>{t('programa.card2Items.2.title')}</strong><span>{t('programa.card2Items.2.desc')}</span></li>
             </ul>
           </div>
         </div>

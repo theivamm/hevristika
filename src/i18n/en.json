@@ -104,7 +104,7 @@
     "label": "The destination",
     "title": "Misiones isn't just where you study. It's part of what you learn.",
     "sub1": "Misiones is the northeasternmost province of Argentina. It borders Brazil and Paraguay, covered in subtropical jungle. It is home to Iguazú Falls — one of the natural wonders of the world.",
-    "sub2": "Living here for a month isn't just studying in a beautiful place. It's leaving with references that no program in Buenos Aires or Europe can give you.",
+    "sub2": "Living here for a month isn't just studying in a beautiful place. It's meeting people, making great friends, and leaving with experiences and references that no other program can give you.",
     "imageCredit": "Puerto Lagier, Misiones"
   },
   "diferenciales": {
@@ -115,9 +115,9 @@
       { "title": "International level. Immersive experience.", "desc": "From zero to professional bartender combining practice, hospitality, science, and immersive experience in Misiones, Argentina. A competitive investment compared to many international schools, with much more support, practical depth, and human connection." },
       { "title": "Real environment, not simulated", "desc": "You learn in a real workspace, with professional bar standards and applied situations from day one." },
       { "title": "Small groups", "desc": "Limited spots so each student gets direct follow-up, personalized correction, and a deeper experience." },
-      { "title": "Working founders", "desc": "Learn with active professionals, not disconnected theory from service reality." },
+      { "title": "Total flexibility", "desc": "We facilitate and guide you on accommodation, transfers, logistics, and additional experiences." },
       { "title": "Active alumni network", "desc": "A real community that collaborates, recommends, and stays connected after the program." },
-      { "title": "Total flexibility", "desc": "We facilitate and guide you on accommodation, transfers, logistics, and additional experiences." }
+      { "title": "Working founders", "desc": "Learn with active professionals, not disconnected theory from service reality." }
     ]
   },
   "testimonios": {
@@ -125,9 +125,9 @@
     "titleInter": "WHAT THEY SAY,",
     "titleSerif": "those who have been through Hevristika.",
     "items": [
-      { "quote": "\"I came not knowing what to expect and left with a level I never imagined I could reach in four weeks. Misiones changes your perspective — not just about bartending, but about many things.\"", "author": "[Name]", "origin": "[City, Country]" },
-      { "quote": "\"The environment pushes you to focus in a way you couldn't in a city. Every day is intensive practice, and the group becomes your support network.\"", "author": "[Name]", "origin": "[City, Country]" },
-      { "quote": "\"I came from Europe on a friend's recommendation. What surprised me most was the technical level — I didn't expect to find that standard here. I returned with a secured job.\"", "author": "[Name]", "origin": "[City, Country]" }
+      { "quote": "\"At Hevristika I learned from the basics, the history of mixology, cocktail families, techniques and methods, and also biotechnology applied to mixology — covering ferments, compound families, and aromatic molecules, which caught my attention the most, as I could see mixology from a more scientific point of view and create cocktails with greater perspective.\"", "author": "Hana", "origin": "" },
+      { "quote": "\"At Hevristika I learned to combine flavors and aromas and to play with textures to create different experiences. I not only found quality content, but also human quality.\"", "author": "Ale", "origin": "" },
+      { "quote": "\"I've been a professional bartender for many years. Looking for training that challenges me, I found Hevristika where I learned to ferment from a biotechnology standpoint, and I was able to understand the function of each microorganism from a scientific perspective.\"", "author": "Catherine", "origin": "" }
     ]
   },
   "inversion": {
@@ -214,7 +214,7 @@
   "ctaForm": {
     "label": "Book your call",
     "title": "Want to know if this program is for you?",
-    "sub": "Talk to the Hevristika team. In 30 minutes we'll tell you everything about the program, available dates, and how to organize your trip from wherever you are.",
+    "sub": "Talk to the Hevristika team. In 15 minutes we'll tell you everything about the program, available dates, and how to organize your trip from wherever you are.",
     "alert": "Thank you for your interest. We'll contact you soon to coordinate your free call.",
     "form": {
       "nameLabel": "Full name",
@@ -256,7 +256,7 @@
     "label": "Book your call — Last spots",
     "titleInter": "WANT TO KNOW IF THIS PROGRAM",
     "titleSerif": "is for you?",
-    "sub": "Talk to the Hevristika team. In 30 minutes we'll tell you everything about the program, available dates, and how to organize your trip from wherever you are.",
+    "sub": "Talk to the Hevristika team. In 15 minutes we'll tell you everything about the program, available dates, and how to organize your trip from wherever you are.",
     "alert": "Thank you for your interest. We'll contact you soon.",
     "form": {
       "nameLabel": "Full name",

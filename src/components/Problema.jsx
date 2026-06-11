@@ -25,12 +25,12 @@ export default function Problema() {
           <p className="split-text">{t('problema.text')}</p>
         </div>
         <div className="cards-row">
-          <div className="card card-dark">
+          <div className="card card-image">
             <span className="card-label">{t('problema.card1Label')}</span>
             <h3 className="card-title">{t('problema.card1Title')}</h3>
             <p className="card-text">{t('problema.card1Text')}</p>
           </div>
-          <div className="card card-image">
+          <div className="card card-impacto">
             <span className="card-label">{t('problema.card2Label')}</span>
             <h3 className="card-title">{t('problema.card2Title')}</h3>
             <p className="card-text">{t('problema.card2Text')}</p>
@@ -63,6 +63,7 @@ export default function Problema() {
         .card-dark .card-title{color:var(--white)}
         .card-dark .card-text{color:rgba(255,255,255,0.75)}
         .card-image{background:linear-gradient(180deg,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%),url("../../imgs/puerto-o1.jpeg") center/cover no-repeat}
+        .card-impacto{background:linear-gradient(180deg,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%),url("/imgs/el-impacto.PNG") center/cover no-repeat}
         .card-label{font-family:var(--font);font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:12px}
         .card-title{font-family:var(--font);font-size:clamp(1.5rem,2.5vw,2.2rem);font-weight:800;letter-spacing:-0.03em;color:var(--white);line-height:1.15;margin-bottom:16px}
         .card-text{font-size:clamp(0.9rem,1vw,1rem);line-height:1.6;color:rgba(255,255,255,0.75);max-width:440px}

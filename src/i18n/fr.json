@@ -104,7 +104,7 @@
     "label": "La destination",
     "title": "Misiones n'est pas seulement là où vous étudiez. Cela fait partie de ce que vous apprenez.",
     "sub1": "Misiones est la province la plus au nord-est de l'Argentine. Elle est frontalière du Brésil et du Paraguay, couverte de jungle subtropicale. Elle abrite les chutes d'Iguazú — l'une des merveilles naturelles du monde.",
-    "sub2": "Vivre ici un mois, ce n'est pas seulement étudier dans un bel endroit. C'est repartir avec des références qu'aucun programme à Buenos Aires ou en Europe ne peut vous donner.",
+    "sub2": "Vivre ici un mois, ce n'est pas seulement étudier dans un bel endroit. C'est rencontrer des gens, se faire des amis, et repartir avec des expériences et des références qu'aucun autre programme ne peut vous donner.",
     "imageCredit": "Puerto Lagier, Misiones"
   },
   "diferenciales": {
@@ -115,9 +115,9 @@
       { "title": "Niveau international. Expérience immersive.", "desc": "De zéro à bartender professionnel en combinant pratique, hospitalité, science et expérience immersive à Misiones, Argentine. Un investissement compétitif face à de nombreuses écoles internationales, avec beaucoup plus d'accompagnement, de profondeur pratique et de connexion humaine." },
       { "title": "Environnement réel, pas simulé", "desc": "Vous apprenez dans un espace de travail réel, avec des standards de bar professionnel et des situations appliquées dès le premier jour." },
       { "title": "Groupes réduits", "desc": "Places limitées pour que chaque élève bénéficie d'un suivi direct, d'une correction personnalisée et d'une expérience plus approfondie." },
-      { "title": "Fondatrices en activité", "desc": "Apprenez avec des professionnelles en activité, pas avec une théorie déconnectée de la réalité du service." },
+      { "title": "Flexibilité totale", "desc": "Nous vous facilitons et orientons sur l'hébergement, les transferts, la logistique et les expériences supplémentaires." },
       { "title": "Réseau d'anciens actif", "desc": "Une vraie communauté qui collabore, se recommande et reste connectée après le programme." },
-      { "title": "Flexibilité totale", "desc": "Nous vous facilitons et orientons sur l'hébergement, les transferts, la logistique et les expériences supplémentaires." }
+      { "title": "Fondatrices en activité", "desc": "Apprenez avec des professionnelles en activité, pas avec une théorie déconnectée de la réalité du service." }
     ]
   },
   "testimonios": {
@@ -125,9 +125,9 @@
     "titleInter": "CE QUE DISENT",
     "titleSerif": "ceux qui sont passés par Hevristika.",
     "items": [
-      { "quote": "\"Je suis venu sans savoir à quoi m'attendre et je suis reparti avec un niveau que je n'imaginais pas pouvoir atteindre en quatre semaines. Misiones change votre perspective — pas seulement sur le bartending, mais sur beaucoup de choses.\"", "author": "[Nom]", "origin": "[Ville, Pays]" },
-      { "quote": "\"L'environnement vous pousse à vous concentrer comme vous ne pourriez pas le faire en ville. Chaque jour est une pratique intensive, et le groupe devient votre réseau de soutien.\"", "author": "[Nom]", "origin": "[Ville, Pays]" },
-      { "quote": "\"Je suis venu d'Europe sur la recommandation d'un ami. Ce qui m'a le plus surpris, c'est le niveau technique — je ne m'attendais pas à trouver ce standard ici. Je suis rentré avec un emploi assuré.\"", "author": "[Nom]", "origin": "[Ville, Pays]" }
+      { "quote": "\"Chez Hevristika, j'ai appris depuis les bases, l'histoire de la cocktail, les familles de cocktails, les techniques et méthodes, ainsi que la biotechnologie appliquée à la cocktail — les fermentations, les familles de composés et les molécules aromatiques, ce qui a le plus retenu mon attention, car j'ai pu voir la cocktail d'un point de vue plus scientifique et créer des cocktails avec une plus grande perspective.\"", "author": "Hana", "origin": "" },
+      { "quote": "\"Chez Hevristika, j'ai appris à combiner les saveurs et les arômes et à jouer avec les textures pour créer des expériences différentes. Je n'ai pas seulement trouvé un contenu de qualité, mais aussi une qualité humaine.\"", "author": "Ale", "origin": "" },
+      { "quote": "\"Je suis bartender professionnelle depuis de nombreuses années. En cherchant des formations qui me défient, j'ai trouvé Hevristika où j'ai appris à fermenter du point de vue de la biotechnologie, j'ai pu comprendre la fonction de chaque microorganisme d'un point de vue scientifique.\"", "author": "Catherine", "origin": "" }
     ]
   },
   "inversion": {
@@ -214,7 +214,7 @@
   "ctaForm": {
     "label": "Réservez votre appel",
     "title": "Vous voulez savoir si ce programme est fait pour vous ?",
-    "sub": "Parlez à l'équipe d'Hevristika. En 30 minutes, nous vous disons tout sur le programme, les dates disponibles et comment organiser votre venue depuis où vous êtes.",
+    "sub": "Parlez à l'équipe d'Hevristika. En 15 minutes, nous vous disons tout sur le programme, les dates disponibles et comment organiser votre venue depuis où vous êtes.",
     "alert": "Merci de votre intérêt. Nous vous contacterons bientôt pour coordonner votre appel gratuit.",
     "form": {
       "nameLabel": "Nom complet",
@@ -256,7 +256,7 @@
     "label": "Réservez votre appel — Dernières places",
     "titleInter": "VOUS VOULEZ SAVOIR SI CE PROGRAMME",
     "titleSerif": "est fait pour vous ?",
-    "sub": "Parlez à l'équipe d'Hevristika. En 30 minutes, nous vous disons tout sur le programme, les dates disponibles et comment organiser votre venue depuis où vous êtes.",
+    "sub": "Parlez à l'équipe d'Hevristika. En 15 minutes, nous vous disons tout sur le programme, les dates disponibles et comment organiser votre venue depuis où vous êtes.",
     "alert": "Merci de votre intérêt. Nous vous contacterons bientôt.",
     "form": {
       "nameLabel": "Nom complet",

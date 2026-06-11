@@ -104,7 +104,7 @@
     "label": "El destino",
     "title": "Misiones no es solo donde estudiás. Es parte de lo que aprendés.",
     "sub1": "Misiones es la provincia más al noreste de Argentina. Limita con Brasil y Paraguay, cubierta de selva subtropical. Alberga las Cataratas del Iguazú — una de las maravillas naturales del mundo.",
-    "sub2": "Vivir un mes acá no es solo estudiar en un lugar bonito. Es salir con referencias que ningún programa en Buenos Aires o en Europa puede darte.",
+    "sub2": "Vivir un mes acá no es solo estudiar en un lugar bonito. Es conocer gente, hacer grandes amigos, y salir con experiencias y referencias que ningún otro programa puede darte.",
     "imageCredit": "Puerto Lagier, Misiones"
   },
   "diferenciales": {
@@ -115,9 +115,9 @@
       { "title": "Nivel internacional. Experiencia inmersiva.", "desc": "De cero a bartender profesional combinando práctica, hospitalidad, ciencia y experiencia inmersiva en Misiones, Argentina. Una inversión competitiva frente a muchas escuelas internacionales, con mucho más acompañamiento, profundidad práctica y conexión humana." },
       { "title": "Entorno real, no simulado", "desc": "Aprendés en un espacio de trabajo real, con estándares de barra profesional y situaciones aplicadas desde el primer día." },
       { "title": "Grupos reducidos", "desc": "Cupos limitados para que cada alumno tenga seguimiento directo, corrección personalizada y una experiencia más profunda." },
-      { "title": "Fundadoras que ejercen", "desc": "Aprendés con profesionales en actividad, no con teoría desconectada de la realidad del servicio." },
+      { "title": "Flexibilidad total", "desc": "Te facilitamos y orientamos sobre alojamiento, traslados, logística y experiencias adicionales para que puedas." },
       { "title": "Red de egresados activa", "desc": "Una comunidad real que colabora, se recomienda y sigue conectada después del programa." },
-      { "title": "Flexibilidad total", "desc": "Te facilitamos y orientamos sobre alojamiento, traslados, logística y experiencias adicionales para que puedas." }
+      { "title": "Fundadoras que ejercen", "desc": "Aprendés con profesionales en actividad, no con teoría desconectada de la realidad del servicio." }
     ]
   },
   "testimonios": {
@@ -125,9 +125,9 @@
     "titleInter": "LO QUE DICEN",
     "titleSerif": "los que ya pasaron por Hevristika.",
     "items": [
-      { "quote": "\"Vine sin saber qué esperar y me fui con un nivel que no imaginaba que podía alcanzar en cuatro semanas. Misiones te cambia la perspectiva — no solo del bartending, sino de muchas cosas.\"", "author": "[Nombre]", "origin": "[Ciudad, País]" },
-      { "quote": "\"El entorno te empuja a concentrarte como no podrías hacerlo en una ciudad. Cada día es práctica intensiva, y el grupo se convierte en tu red de apoyo.\"", "author": "[Nombre]", "origin": "[Ciudad, País]" },
-      { "quote": "\"Vine desde Europa por la recomendación de un amigo. Lo que más me sorprendió fue el nivel técnico — no esperaba encontrar ese estándar acá. Volví con trabajo asegurado.\"", "author": "[Nombre]", "origin": "[Ciudad, País]" }
+      { "quote": "\"En Hevristika aprendí desde lo básico, la historia de la coctelería, familia de cócteles, técnicas y métodos, y también biotecnología aplicada a la coctelería donde se habla sobre fermentos, la familia de compuestos y moléculas aromáticas que es lo que más me llamó la atención, ya que pude ver la coctelería desde un punto más científico y crear cócteles con mayor perspectiva.\"", "author": "Hana", "origin": "" },
+      { "quote": "\"En Hevristika aprendí a combinar sabores y aromas y a jugar con texturas para crear experiencias distintas. No solo me encontré con calidad de contenido, sino que también calidad humana.\"", "author": "Ale", "origin": "" },
+      { "quote": "\"Soy bartender profesional hace muchos años. Y al buscar capacitaciones que me desafíen encontré Hevristika en donde aprendí a fermentar desde el punto de la biotecnología, pude aprender la función de cada microorganismo desde una mirada científica.\"", "author": "Catherine", "origin": "" }
     ]
   },
   "inversion": {
@@ -214,7 +214,7 @@
   "ctaForm": {
     "label": "Reservá tu llamada",
     "title": "¿Querés saber si este programa es para vos?",
-    "sub": "Hablá con el equipo de Hevristika. En 30 minutos te contamos todo sobre el programa, las fechas disponibles y cómo organizarte para venir desde donde estés.",
+    "sub": "Hablá con el equipo de Hevristika. En 15 minutos te contamos todo sobre el programa, las fechas disponibles y cómo organizarte para venir desde donde estés.",
     "alert": "Gracias por tu interés. Te contactaremos pronto para coordinar tu llamada sin costo.",
     "form": {
       "nameLabel": "Nombre completo",
@@ -256,7 +256,7 @@
     "label": "Reservá tu llamada — Últimos lugares",
     "titleInter": "¿QUERÉS SABER SI ESTE PROGRAMA",
     "titleSerif": "es para vos?",
-    "sub": "Hablá con el equipo de Hevristika. En 30 minutos te contamos todo sobre el programa, las fechas disponibles y cómo organizarte para venir desde donde estés.",
+    "sub": "Hablá con el equipo de Hevristika. En 15 minutos te contamos todo sobre el programa, las fechas disponibles y cómo organizarte para venir desde donde estés.",
     "alert": "Gracias por tu interés. Te contactaremos pronto.",
     "form": {
       "nameLabel": "Nombre completo",
