@@ -40,7 +40,7 @@ export default function Fundadoras() {
           </div>
           <div className="fd-card">
             <div className="fd-card-img">
-              <img src="/imgs/VerónicaBaez.jpg" alt="Verónica Báez" />
+              <img src="/imgs/VerónicaBaez1.jpg" alt="Verónica Báez" />
             </div>
             <div className="fd-card-body">
               <h3 className="fd-card-name">{t('fundadoras.card2Name')}</h3>
