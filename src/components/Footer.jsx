@@ -18,7 +18,7 @@ export default function Footer() {
           </div>
           <div>
             <h4>{t('footer.contactTitle')}</h4>
-            <a href="https://wa.me/549XXXXXXXXX">{t('footer.contactWhatsapp')}</a>
+            <a href="https://wa.me/5493765005642">{t('footer.contactWhatsapp')}</a>
             <a href="mailto:info@hevristika.com">info@hevristika.com</a>
             <a href="#cta-final">{t('footer.contactReservar')}</a>
           </div>
