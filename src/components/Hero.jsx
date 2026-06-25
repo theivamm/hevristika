@@ -68,7 +68,7 @@ export default function Hero() {
           <span className="hero-line hero-line-serif">{t('hero.titleSerif')}</span>
         </h1>
         <p ref={subRef} className="subheadline">{t('hero.subheadline')}</p>
-        <a ref={btnRef} href="#cta-form" className="btn btn-primary" style={{ background: '#99e4df', color: '#000', border: 'none' }}>{t('hero.cta')}</a>
+        <button ref={btnRef} className="btn btn-primary" style={{ background: '#99e4df', color: '#000', border: 'none' }} onClick={() => document.getElementById('cta-final')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>{t('hero.cta')}</button>
         <p ref={footnoteRef} className="hero-footnote">{t('hero.footnote')}</p>
       </div>
       <style>{`

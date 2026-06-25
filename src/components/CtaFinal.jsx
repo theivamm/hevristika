@@ -119,7 +119,7 @@ export default function CtaFinal() {
         </div>
       </div>
       <style>{`
-        #cta-final{background:linear-gradient(135deg,#000 0%,#0d1a14 100%);position:relative;overflow:hidden;padding:120px 0}
+        #cta-final{background:linear-gradient(135deg,#000 0%,#0d1a14 100%);position:relative;overflow:hidden;padding:120px 0;scroll-margin-top:80px}
         .ctaf-glow{position:absolute;border-radius:50%;filter:blur(120px);pointer-events:none;z-index:0}
         .ctaf-glow-1{width:500px;height:500px;background:rgba(156,233,227,0.08);top:-200px;right:-80px}
         .ctaf-glow-2{width:400px;height:400px;background:rgba(218,190,150,0.08);bottom:-150px;left:-60px}

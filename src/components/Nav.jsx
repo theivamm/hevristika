@@ -23,7 +23,7 @@ export default function Nav() {
             </button>
           ))}
         </div>
-        <a href="#cta-final" className="nav-cta">{t('nav.cta')}</a>
+        <button className="nav-cta" onClick={() => document.getElementById('cta-final')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>{t('nav.cta')}</button>
       </div>
       <style>{`
         nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 0;transition:all 0.4s ease}

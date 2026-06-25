@@ -44,7 +44,10 @@ export default function App() {
       <Inversion />
       <CtaFinal />
       <Footer />
-      <WhatsAppFloat />
+      <div className="float-stack">
+        <button className="float-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} aria-label="Volver arriba">↑</button>
+        <WhatsAppFloat />
+      </div>
     </>
   )
 }

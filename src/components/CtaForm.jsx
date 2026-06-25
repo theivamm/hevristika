@@ -97,7 +97,7 @@ export default function CtaForm() {
         </div>
       </div>
       <style>{`
-        #cta-form{background:var(--white)}
+        #cta-form{background:var(--white);scroll-margin-top:80px}
         #cta-form .wrap{max-width:600px;margin:0 auto;text-align:center}
         #cta-form form{text-align:left;margin-top:32px}
         #cta-form .form-grid{display:grid;gap:16px}
