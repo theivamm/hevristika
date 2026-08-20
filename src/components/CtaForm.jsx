@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useTranslation } from '../i18n/i18n.jsx'
@@ -6,6 +6,7 @@ import { useTranslation } from '../i18n/i18n.jsx'
 export default function CtaForm() {
   const { t } = useTranslation()
   const wrapRef = useRef(null)
+  const [submitted, setSubmitted] = useState(false)
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -24,12 +25,18 @@ export default function CtaForm() {
           <p className="section-label">{t('ctaForm.label')}</p>
           <h2 className="section-title">{t('ctaForm.title')}</h2>
           <p className="section-sub" style={{ margin: '0 auto' }}>{t('ctaForm.sub')}</p>
+          {submitted ? (
+            <div className="success-msg">
+              <span className="success-icon">✓</span>
+              <p>{t('ctaForm.alert')}</p>
+            </div>
+          ) : (
           <form onSubmit={e => {
             e.preventDefault()
             const f = id => document.getElementById(id).value
             const msg = `Nuevo lead - Hevristika\n\nNombre: ${f('name')}\nEmail: ${f('email')}\nPaís: ${f('country')}\nPrograma: ${f('programInterest')}\nDisponibilidad: ${f('availability')}\nExperiencia: ${f('experience')}\nTour: ${f('tourExperience')}`
             window.open(`https://wa.me/5493765005642?text=${encodeURIComponent(msg)}`, '_blank')
-            alert(t('ctaForm.alert'))
+            setSubmitted(true)
           }}>
             <div className="form-grid">
               <div className="full">
@@ -87,6 +94,7 @@ export default function CtaForm() {
             </div>
             <button type="submit" className="btn btn-primary">{t('ctaForm.submit')}</button>
           </form>
+          )}
           <div className="whatsapp-alt">
             <span>{t('ctaForm.whatsappLabel')}</span>
             <a href="https://wa.me/5493765005642" target="_blank" rel="noopener noreferrer">
@@ -109,6 +117,9 @@ export default function CtaForm() {
         #cta-form .btn{width:100%;margin-top:8px;font-size:17px;padding:18px 40px}
         #cta-form .whatsapp-alt{margin-top:20px;display:flex;align-items:center;justify-content:center;gap:12px;font-size:14px;color:var(--text-light);flex-wrap:wrap}
         #cta-form .whatsapp-alt a{color:#25D366;font-weight:600;display:inline-flex;align-items:center;gap:6px}
+        #cta-form .success-msg{margin-top:32px;text-align:center;padding:48px 24px;background:var(--cream-light);border-radius:16px}
+        #cta-form .success-msg .success-icon{display:inline-flex;width:56px;height:56px;border-radius:50%;background:var(--green);color:#fff;font-size:26px;align-items:center;justify-content:center;margin-bottom:16px}
+        #cta-form .success-msg p{font-size:16px;color:var(--text);line-height:1.6}
         @media(max-width:767px){#cta-form .btn{font-size:15px;padding:16px}}
       `}</style>
     </section>

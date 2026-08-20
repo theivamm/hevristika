@@ -130,80 +130,6 @@
       { "quote": "\"Soy bartender profesional hace muchos años. Y al buscar capacitaciones que me desafíen encontré Hevristika en donde aprendí a fermentar desde el punto de la biotecnología, pude aprender la función de cada microorganismo desde una mirada científica.\"", "author": "Catherine", "origin": "" }
     ]
   },
-  "inversion": {
-    "label": "Inversión",
-    "title": "La inversión en tu formación.",
-    "subtitle": "Los valores varían según el programa elegido y las experiencias adicionales que quieras sumar durante tu estadía.",
-    "programs": [
-      {
-        "badge": "PROGRAMA INTENSIVO BÁSICO",
-        "title": "1 semana · Real Immersion",
-        "price": "USD 1.100",
-        "period": "/ programa",
-        "sub": "Curso + hospedaje + desayuno y almuerzo",
-        "features": [
-          "Formación intensiva básica de 1 semana",
-          "Hospedaje durante el programa",
-          "Desayuno y almuerzo",
-          "Práctica y técnica aplicada",
-          "Introducción a coctelería profesional",
-          "Introducción Foodpairing",
-          "Introducción Biotecnología",
-          "Técnicas básicas de coctelería",
-          "Acompañamiento durante la estadía"
-        ],
-        "extra": "Ideal para quienes quieren vivir una experiencia breve, intensa y transformadora en Misiones.",
-        "optional": "Podés sumar la experiencia a Cataratas del Iguazú durante el primer fin de semana.",
-        "cta": "Consultar por el programa de 1 semana"
-      },
-      {
-        "badge": "PROGRAMA COMPLETO",
-        "title": "4 semanas · Total Transformation",
-        "price": "Desde USD 3.080",
-        "period": "/ programa",
-        "sub": "Curso + alojamiento + desayuno y almuerzo",
-        "features": [
-          "Programa completo de 4 semanas",
-          "Alojamiento durante la cursada",
-          "Desayuno y almuerzo",
-          "Materiales de estudio",
-          "Acceso a instalaciones",
-          "Práctica real de barra",
-          "Formación técnica, sensorial y profesional",
-          "Foodpairing avanzado",
-          "Biotecnología avanzado",
-          "Técnicas avanzadas de coctelería",
-          "Acompañamiento durante la experiencia"
-        ],
-        "cta": "Consultar por el programa de 4 semanas"
-      },
-      {
-        "badge": "EXPERIENCIA COMPLETA",
-        "title": "4 semanas + Iguazú + Buenos Aires",
-        "price": "USD 4.760",
-        "period": "/ programa",
-        "sub": "Programa completo + viaje a Cataratas del Iguazú + tour de bares en Buenos Aires",
-        "features": [
-          "Todo lo incluido en el programa de 4 semanas",
-          "Experiencia en Cataratas del Iguazú",
-          "Tour Buenos Aires en bares reconocidos por The World's 50 Best Bars",
-          "Traslados, hospedajes y accesos a diferentes parques",
-          "Acompañamiento logístico",
-          "Experiencia cultural y profesional ampliada"
-        ],
-        "cta": "Quiero la experiencia completa"
-      }
-    ],
-    "breakdownTitle": "Desglose de inversión",
-    "breakdown": [
-      { "name": "Programa 1 semana", "price": "USD 1.100", "includes": "Curso + hospedaje + desayuno y almuerzo" },
-      { "name": "Programa 4 semanas", "price": "USD 3.080", "includes": "Curso + alojamiento + desayuno y almuerzo" },
-      { "name": "Experiencia Cataratas del Iguazú", "price": "USD 600", "includes": "Hospedaje + traslado + accesos a parques", "note": "Opcional para programas seleccionados" },
-      { "name": "Tour Buenos Aires / 50 Best Bars", "price": "USD 1.080", "includes": "Traslados + hospedaje — Experiencia profesional y cultural en bares destacados" },
-      { "name": "Combo completo", "price": "USD 4.760", "includes": "Programa 4 semanas + Iguazú + Buenos Aires" }
-    ],
-    "footnote": "Solo hospedajes y traslados locales están incluidos. Los vuelos internacionales no están incluidos. Te derivamos con una agencia de viajes aliada para facturación y ayudarte a organizar tu llegada a Argentina."
-  },
   "ctaCierre": {
     "label": "Últimos lugares",
     "title": "Las cohortes son grupos reducidos. Los lugares para el próximo programa son limitados.",
@@ -315,7 +241,6 @@
     "description": "Formación profesional en bartending en Misiones, Argentina. Técnica internacional, entorno único, comunidad real.",
     "programTitle": "Programa",
     "programLink1": "Contenido",
-    "programLink2": "Inversión",
     "contactTitle": "Contacto",
     "contactWhatsapp": "WhatsApp",
     "contactReservar": "Reservar llamada",

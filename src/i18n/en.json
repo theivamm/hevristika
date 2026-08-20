@@ -130,80 +130,6 @@
       { "quote": "\"I've been a professional bartender for many years. Looking for training that challenges me, I found Hevristika where I learned to ferment from a biotechnology standpoint, and I was able to understand the function of each microorganism from a scientific perspective.\"", "author": "Catherine", "origin": "" }
     ]
   },
-  "inversion": {
-    "label": "Investment",
-    "title": "The investment in your training.",
-    "subtitle": "Prices vary depending on the program chosen and the additional experiences you want to add during your stay.",
-    "programs": [
-      {
-        "badge": "BASIC INTENSIVE PROGRAM",
-        "title": "1 week · Real Immersion",
-        "price": "USD 1,100",
-        "period": "/ program",
-        "sub": "Course + accommodation + breakfast and lunch",
-        "features": [
-          "1-week basic intensive training",
-          "Accommodation during the program",
-          "Breakfast and lunch",
-          "Practice and applied technique",
-          "Introduction to professional mixology",
-          "Introduction to Foodpairing",
-          "Introduction to Biotechnology",
-          "Basic mixology techniques",
-          "Support during your stay"
-        ],
-        "extra": "Ideal for those who want a brief, intense, and transformative experience in Misiones.",
-        "optional": "You can add the Iguazú Falls experience during the first weekend.",
-        "cta": "Inquire about the 1-week program"
-      },
-      {
-        "badge": "COMPLETE PROGRAM",
-        "title": "4 weeks · Total Transformation",
-        "price": "From USD 3,080",
-        "period": "/ program",
-        "sub": "Course + accommodation + breakfast and lunch",
-        "features": [
-          "Complete 4-week program",
-          "Accommodation during the course",
-          "Breakfast and lunch",
-          "Study materials",
-          "Access to facilities",
-          "Real bar practice",
-          "Technical, sensory, and professional training",
-          "Advanced Foodpairing",
-          "Advanced Biotechnology",
-          "Advanced mixology techniques",
-          "Support throughout the experience"
-        ],
-        "cta": "Inquire about the 4-week program"
-      },
-      {
-        "badge": "COMPLETE EXPERIENCE",
-        "title": "4 weeks + Iguazú + Buenos Aires",
-        "price": "USD 4,760",
-        "period": "/ program",
-        "sub": "Complete program + Iguazú Falls trip + Buenos Aires bar tour",
-        "features": [
-          "Everything included in the 4-week program",
-          "Iguazú Falls experience",
-          "Buenos Aires tour of bars recognized by The World's 50 Best Bars",
-          "Transfers, accommodations, and park access",
-          "Logistical support",
-          "Expanded cultural and professional experience"
-        ],
-        "cta": "I want the complete experience"
-      }
-    ],
-    "breakdownTitle": "Investment breakdown",
-    "breakdown": [
-      { "name": "1-week Program", "price": "USD 1,100", "includes": "Course + accommodation + breakfast and lunch" },
-      { "name": "4-week Program", "price": "USD 3,080", "includes": "Course + accommodation + breakfast and lunch" },
-      { "name": "Iguazú Falls Experience", "price": "USD 600", "includes": "Accommodation + transfer + park access", "note": "Optional for selected programs" },
-      { "name": "Buenos Aires / 50 Best Bars Tour", "price": "USD 1,080", "includes": "Transfers + accommodation — Professional and cultural experience at top bars" },
-      { "name": "Complete Combo", "price": "USD 4,760", "includes": "4-week program + Iguazú + Buenos Aires" }
-    ],
-    "footnote": "Only local accommodation and transfers are included. International flights are not included. We connect you with a partner travel agency for billing and to help organize your arrival in Argentina."
-  },
   "ctaCierre": {
     "label": "Last spots",
     "title": "Cohorts are small groups. Spots for the next program are limited.",
@@ -315,7 +241,6 @@
     "description": "Professional bartending training in Misiones, Argentina. International technique, unique environment, real community.",
     "programTitle": "Program",
     "programLink1": "Content",
-    "programLink2": "Investment",
     "contactTitle": "Contact",
     "contactWhatsapp": "WhatsApp",
     "contactReservar": "Book a call",

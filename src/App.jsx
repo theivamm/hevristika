@@ -12,7 +12,7 @@ import Foodpairing from './components/Foodpairing'
 import Destino from './components/Destino'
 import Diferenciales from './components/Diferenciales'
 import Testimonios from './components/Testimonios'
-import Inversion from './components/Inversion'
+
 import CtaFinal from './components/CtaFinal'
 import Footer from './components/Footer'
 import WhatsAppFloat from './components/WhatsAppFloat'
@@ -41,7 +41,7 @@ export default function App() {
       <Destino />
       <Diferenciales />
       <Testimonios />
-      <Inversion />
+
       <CtaFinal />
       <Footer />
       <div className="float-stack">

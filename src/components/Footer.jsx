@@ -14,7 +14,7 @@ export default function Footer() {
           <div>
             <h4>{t('footer.programTitle')}</h4>
             <a href="#programa">{t('footer.programLink1')}</a>
-            <a href="#inversion">{t('footer.programLink2')}</a>
+
           </div>
           <div>
             <h4>{t('footer.contactTitle')}</h4>

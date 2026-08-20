@@ -130,80 +130,6 @@
       { "quote": "\"Je suis bartender professionnelle depuis de nombreuses années. En cherchant des formations qui me défient, j'ai trouvé Hevristika où j'ai appris à fermenter du point de vue de la biotechnologie, j'ai pu comprendre la fonction de chaque microorganisme d'un point de vue scientifique.\"", "author": "Catherine", "origin": "" }
     ]
   },
-  "inversion": {
-    "label": "Investissement",
-    "title": "L'investissement dans votre formation.",
-    "subtitle": "Les prix varient selon le programme choisi et les expériences supplémentaires que vous souhaitez ajouter pendant votre séjour.",
-    "programs": [
-      {
-        "badge": "PROGRAMME INTENSIF DE BASE",
-        "title": "1 semaine · Real Immersion",
-        "price": "USD 1 100",
-        "period": "/ programme",
-        "sub": "Cours + hébergement + petit-déjeuner et déjeuner",
-        "features": [
-          "Formation intensive de base d'1 semaine",
-          "Hébergement pendant le programme",
-          "Petit-déjeuner et déjeuner",
-          "Pratique et technique appliquée",
-          "Introduction à la cocktail professionnelle",
-          "Introduction au Foodpairing",
-          "Introduction à la Biotechnologie",
-          "Techniques de base de cocktail",
-          "Accompagnement pendant le séjour"
-        ],
-        "extra": "Idéal pour ceux qui veulent vivre une expérience brève, intense et transformatrice à Misiones.",
-        "optional": "Vous pouvez ajouter l'expérience aux chutes d'Iguazú pendant le premier week-end.",
-        "cta": "Se renseigner sur le programme d'1 semaine"
-      },
-      {
-        "badge": "PROGRAMME COMPLET",
-        "title": "4 semaines · Total Transformation",
-        "price": "À partir de USD 3 080",
-        "period": "/ programme",
-        "sub": "Cours + hébergement + petit-déjeuner et déjeuner",
-        "features": [
-          "Programme complet de 4 semaines",
-          "Hébergement pendant le cours",
-          "Petit-déjeuner et déjeuner",
-          "Matériel d'étude",
-          "Accès aux installations",
-          "Pratique réelle du bar",
-          "Formation technique, sensorielle et professionnelle",
-          "Foodpairing avancé",
-          "Biotechnologie avancée",
-          "Techniques avancées de cocktail",
-          "Accompagnement pendant l'expérience"
-        ],
-        "cta": "Se renseigner sur le programme de 4 semaines"
-      },
-      {
-        "badge": "EXPÉRIENCE COMPLÈTE",
-        "title": "4 semaines + Iguazú + Buenos Aires",
-        "price": "USD 4 760",
-        "period": "/ programme",
-        "sub": "Programme complet + voyage aux chutes d'Iguazú + tour des bars à Buenos Aires",
-        "features": [
-          "Tout inclus dans le programme de 4 semaines",
-          "Expérience aux chutes d'Iguazú",
-          "Tour de Buenos Aires dans les bars reconnus par The World's 50 Best Bars",
-          "Transferts, hébergements et accès aux parcs",
-          "Accompagnement logistique",
-          "Expérience culturelle et professionnelle élargie"
-        ],
-        "cta": "Je veux l'expérience complète"
-      }
-    ],
-    "breakdownTitle": "Détail de l'investissement",
-    "breakdown": [
-      { "name": "Programme 1 semaine", "price": "USD 1 100", "includes": "Cours + hébergement + petit-déjeuner et déjeuner" },
-      { "name": "Programme 4 semaines", "price": "USD 3 080", "includes": "Cours + hébergement + petit-déjeuner et déjeuner" },
-      { "name": "Expérience Chutes d'Iguazú", "price": "USD 600", "includes": "Hébergement + transfert + accès aux parcs", "note": "Optionnel pour les programmes sélectionnés" },
-      { "name": "Tour Buenos Aires / 50 Best Bars", "price": "USD 1 080", "includes": "Transferts + hébergement — Expérience professionnelle et culturelle dans les bars de renom" },
-      { "name": "Combo complet", "price": "USD 4 760", "includes": "Programme 4 semaines + Iguazú + Buenos Aires" }
-    ],
-    "footnote": "Seuls l'hébergement local et les transferts sont inclus. Les vols internationaux ne sont pas inclus. Nous vous mettons en relation avec une agence de voyages partenaire pour la facturation et pour vous aider à organiser votre arrivée en Argentine."
-  },
   "ctaCierre": {
     "label": "Dernières places",
     "title": "Les cohortes sont des groupes restreints. Les places pour le prochain programme sont limitées.",
@@ -315,7 +241,6 @@
     "description": "Formation professionnelle en bartending à Misiones, Argentine. Technique internationale, environnement unique, communauté réelle.",
     "programTitle": "Programme",
     "programLink1": "Contenu",
-    "programLink2": "Investissement",
     "contactTitle": "Contact",
     "contactWhatsapp": "WhatsApp",
     "contactReservar": "Réserver un appel",

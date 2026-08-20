@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useTranslation } from '../i18n/i18n.jsx'
@@ -12,6 +12,7 @@ const spotImgs = [
 export default function CtaFinal() {
   const { t } = useTranslation()
   const sectionRef = useRef(null)
+  const [submitted, setSubmitted] = useState(false)
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -37,12 +38,18 @@ export default function CtaFinal() {
         <p className="ctaf-sub">{t('ctaFinal.sub')}</p>
         <div className="ctaf-main">
           <div className="ctaf-form-wrap">
+            {submitted ? (
+              <div className="ctaf-success">
+                <span className="ctaf-success-icon">✓</span>
+                <p>{t('ctaFinal.alert')}</p>
+              </div>
+            ) : (
             <form onSubmit={e => {
               e.preventDefault()
               const f = id => document.getElementById(id).value
               const msg = `Nuevo lead - Hevristika\n\nNombre: ${f('name2')}\nEmail: ${f('email2')}\nPaís: ${f('country2')}\nPrograma: ${f('programInterest2')}\nDisponibilidad: ${f('availability2')}\nExperiencia: ${f('experience2')}\nTour: ${f('tourExperience2')}`
               window.open(`https://wa.me/5493765005642?text=${encodeURIComponent(msg)}`, '_blank')
-              alert(t('ctaFinal.alert'))
+              setSubmitted(true)
             }}>
               <div className="ctaf-grid">
                 <div className="ctaf-full">
@@ -100,6 +107,7 @@ export default function CtaFinal() {
               </div>
               <button type="submit" className="ctaf-btn">{t('ctaFinal.submit')}</button>
             </form>
+            )}
             <div className="ctaf-whatsapp">
               <span>{t('ctaFinal.whatsappLabel')}</span>
               <a href="https://wa.me/5493765005642" target="_blank" rel="noopener noreferrer">
@@ -144,6 +152,9 @@ export default function CtaFinal() {
         .ctaf-whatsapp{margin-top:20px;display:flex;align-items:center;justify-content:center;gap:12px;font-size:14px;color:rgba(255,255,255,0.5);flex-wrap:wrap}
         .ctaf-whatsapp a{color:#9ce9e3;font-weight:600;display:inline-flex;align-items:center;gap:6px;transition:opacity 0.3s}
         .ctaf-whatsapp a:hover{opacity:0.8}
+        .ctaf-success{text-align:center;padding:48px 24px}
+        .ctaf-success .ctaf-success-icon{display:inline-flex;width:56px;height:56px;border-radius:50%;background:rgba(156,233,227,0.15);color:#9ce9e3;font-size:26px;align-items:center;justify-content:center;margin-bottom:16px}
+        .ctaf-success p{font-size:16px;color:rgba(255,255,255,0.85);line-height:1.6}
         .ctaf-cards{display:grid;gap:16px;align-content:start}
         .ctaf-card{border-radius:16px;padding:28px 24px;min-height:140px;display:flex;flex-direction:column;justify-content:flex-end;background-size:cover;background-position:center;border:1px solid rgba(255,255,255,0.06);transition:all 0.4s cubic-bezier(0.16,1,0.3,1)}
         .ctaf-card:hover{transform:translateY(-3px);border-color:rgba(156,233,227,0.2)}
